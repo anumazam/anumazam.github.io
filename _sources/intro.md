@@ -1,8 +1,8 @@
-# Welcome to your Jupyter Book
+# Welcome to the Glasgow Lab
 
-This is a small sample book to give you a feel for how book content is
-structured.
+Coming soon in January 2022!
 
+<!---
 :::{note}
 Here is a note!
 :::
@@ -14,3 +14,4 @@ e = mc^2
 ```
 
 Check out the content pages bundled with this sample book to see more.
+-->
