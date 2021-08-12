@@ -2,6 +2,11 @@
 
 Coming soon in January 2022!
 
+```{sidebar} My sidebar title
+My sidebar content
+```
+
+
 <!---
 :::{note}
 Here is a note!
