@@ -1,6 +1,7 @@
-# Welcome to the Glasgow Lab
+Welcome to the Glasgow Lab
+===
 
-Coming soon in January 2022!
+## Coming soon in January 2022!
 
 <!---
 :::{note}
