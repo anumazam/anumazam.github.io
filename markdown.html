@@ -102,7 +102,7 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="publications.html">
-   My header
+   Publications
   </a>
  </li>
  <li class="toctree-l1">
@@ -289,7 +289,7 @@ role syntax <code class="docutils literal notranslate"><span class="pre">{doc}`i
 <h3>Adding a citation<a class="headerlink" href="#adding-a-citation" title="Permalink to this headline">¶</a></h3>
 <p>You can also cite references that are stored in a <code class="docutils literal notranslate"><span class="pre">bibtex</span></code> file. For example,
 the following syntax: <code class="docutils literal notranslate"><span class="pre">{cite}`holdgraf_evidence_2014`</span></code> will render like
-this: <a href="#id1"><span class="problematic" id="id2">:cite:`holdgraf_evidence_2014`</span></a>.</p>
+this: <span id="id1">[]</span>.</p>
 <p>Moreoever, you can insert a bibliography into your page with this syntax:
 The <code class="docutils literal notranslate"><span class="pre">{bibliography}</span></code> directive must be used for all the <code class="docutils literal notranslate"><span class="pre">{cite}</span></code> roles to
 render properly.
@@ -300,6 +300,12 @@ then the bibliography is inserted with:</p>
 </pre></div>
 </div>
 <p>Resulting in a rendered bibliography that looks like:</p>
+<p id="id2"><dl class="citation">
+<dt class="label" id="id9"><span class="brackets">EZB+21</span></dt>
+<dd><p>Susanna K. Elledge, Xin X. Zhou, James R. Byrnes, Alexander J. Martinko, Irene Lui, Katarina Pance, Shion A. Lim, Jeff E. Glasgow, Anum A. Glasgow, Keirstinne Turcios, Nikita S. Iyer, Leonel Torres, Michael J. Peluso, Timothy J. Henrich, Taia T. Wang, Cristina M. Tato, Kevin K. Leung, Bryan Greenhouse, and James A. Wells. Engineering luminescent biosensors for point-of-care SARS-CoV-2 antibody detection. <em>Nature Biotechnology</em>, 39(8):928–935, August 2021. Bandiera_abtest: a Cg_type: Nature Research Journals Number: 8 Primary_atype: Research Publisher: Nature Publishing Group Subject_term: Assay systems;Molecular engineering Subject_term_id: assay-systems;molecular-engineering. URL: <a class="reference external" href="https://www.nature.com/articles/s41587-021-00878-8">https://www.nature.com/articles/s41587-021-00878-8</a> (visited on 2021-08-13), <a class="reference external" href="https://doi.org/10.1038/s41587-021-00878-8">doi:10.1038/s41587-021-00878-8</a>.</p>
+</dd>
+</dl>
+</p>
 </div>
 <div class="section" id="executing-code-in-your-markdown-files">
 <h3>Executing code in your markdown files<a class="headerlink" href="#executing-code-in-your-markdown-files" title="Permalink to this headline">¶</a></h3>
