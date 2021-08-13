@@ -9,6 +9,7 @@ Protein allostery is defined as a perturbation at one site in a protein that cau
 
 How are allosteric conformational changes that drive function encoded in protein families? Do conserved intramolecular contacts in homologous proteins enable common conformational changes in response to allosteric perturbations? To answer these questions, we are building a high-throughput platform for precisely tuning thermodynamically coupled residue interactions in proteins towards a generalizable model of allostery, by studying *allostery in related proteins*. We are also precisely engineering *new allosteric proteins* using biophysical methods and computational design approaches.
 
+![figure1](fig2.png)
 
 ### Engineering protein-protein interactions for new therapeutic scaffolds.
 Effective protein therapeutics rely on strong, specific, well-regulated protein-protein interactions, but the design of such interactions *de novo* still represents a fundamental challenge. We will combine the fundamental question of how to build new protein binders with the critical need to develop robust platforms for rapid response to viral infections, towards versatile and generalizable therapeutic scaffolds. 
