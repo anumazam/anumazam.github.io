@@ -5,13 +5,14 @@
 ```{bibliography}
 :all:
 :style: unsrt
-:figclass: margin
 ```
 
-
-:::{figure-md} markdown-fig
-<img src="ace2.jpg" alt="ace2" class="bg-primary mb-1" width="200px">
-
-This is a caption in **Markdown**!
-:::
+```{figure} ace2.jpg
+:figclass: margin
+---
+height: 150px
+name: ace2
+---
+this is a figure caption.
+```
 <!-- #endregion -->
