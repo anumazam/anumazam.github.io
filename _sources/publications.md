@@ -51,6 +51,22 @@ name: nanowires_1
 Filament-templated nanowires.
 ```
 
+
+```{margin}
+<br/><br/>
+```
+
+```{figure} sipD.jpg
+:figclass: margin
+---
+height: 150px
+name: sipD
+---
+A dual role for a \textit{Salmonella} structural protein.
+```
+
+
+
 ```{bibliography}
 :all:
 :style: unsrt
