@@ -42,8 +42,6 @@
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -228,19 +226,17 @@ code blocks and their outputs in your book.</p>
 <h2>Markdown + notebooks<a class="headerlink" href="#markdown-notebooks" title="Permalink to this headline">¶</a></h2>
 <p>As it is markdown, you can embed images, HTML, etc into your posts!</p>
 <p><img alt="" src="https://myst-parser.readthedocs.io/en/latest/_static/logo-wide.svg" /></p>
-<p>You can also <span class="math notranslate nohighlight">\(add_{math}\)</span> and</p>
-<div class="math notranslate nohighlight">
-\[
+<p>You can also $add_{math}$ and</p>
+<p>$$
 math^{blocks}
-\]</div>
+$$</p>
 <p>or</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}
+<p>$$
 \begin{aligned}
-\mbox{mean} la_{tex} \\ \\
+\mbox{mean} la_{tex} \ \
 math blocks
 \end{aligned}
-\end{split}\]</div>
+$$</p>
 <p>But make sure you $Escape $your $dollar signs $you want to keep!</p>
 </div>
 <div class="section" id="myst-markdown">
@@ -263,7 +259,7 @@ For example, here’s some sample Matplotlib code:</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.pyplot._IonContext at 0x7fdbf8e27b50&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.pyplot._IonContext at 0x7fae50121a90&gt;
 </pre></div>
 </div>
 </div>
