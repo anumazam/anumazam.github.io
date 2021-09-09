@@ -11,6 +11,8 @@ name: spluc
 ---
 A solution-based serology assay to detect COVID antibodies.
 ```
++++
++++
 
 ```{figure} ace2.jpg
 :figclass: margin
@@ -20,6 +22,8 @@ name: ace2
 ---
 Engineering SARS-CoV-2 neutralizing receptor traps.
 ```
++++
++++
 
 ```{figure} biosensor.png
 :figclass: margin
