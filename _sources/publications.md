@@ -32,14 +32,14 @@ Engineering SARS-CoV-2 neutralizing receptor traps.
 ```{figure} biosensor.png
 :figclass: margin
 ---
-height: 150px
+height: 50px
 name: biosensor
 ---
-\textit{De novo} design of a protein-based biosensor.
+<i>De novo</i> design of a protein-based biosensor.
 ```
 
 ```{margin}
-<br/><br/>
+<br/>
 ```
 
 ```{figure} nanowires_1.png
@@ -53,7 +53,7 @@ Filament-templated nanowires.
 
 
 ```{margin}
-<br/><br/>
+<br/>
 ```
 
 ```{figure} sipD.jpg
@@ -62,7 +62,7 @@ Filament-templated nanowires.
 height: 150px
 name: sipD
 ---
-A dual role for a \textit{Salmonella} structural protein.
+A dual role for a <i>Salmonella</i> structural protein.
 ```
 
 
