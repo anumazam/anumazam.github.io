@@ -1,3 +1,4 @@
+<!-- #region -->
 (my-label)=
 ## Publications
 
@@ -8,13 +9,9 @@
 ```
 
 
-
 :::{figure-md} markdown-fig
 <img src="ace2.jpg" alt="ace2" class="bg-primary mb-1" width="200px">
 
 This is a caption in **Markdown**!
 :::
-
-```python
-
-```
+<!-- #endregion -->
