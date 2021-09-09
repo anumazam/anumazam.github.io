@@ -11,7 +11,10 @@ name: spluc
 ---
 A solution-based serology assay to detect COVID antibodies.
 ```
+```{margin}
 <br/><br/>
+```
+
 ```{figure} ace2.jpg
 :figclass: margin
 ---
