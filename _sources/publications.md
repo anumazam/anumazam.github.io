@@ -3,5 +3,5 @@
 
 ```{bibliography}
 :all:
-:style: plain
+:style: unsrt
 ```
