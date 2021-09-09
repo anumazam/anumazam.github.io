@@ -10,10 +10,8 @@ height: 150px
 name: spluc
 ---
 A solution-based serology assay to detect COVID antibodies.
-+++ {"meta": "data"}
-+++ {"meta": "data"}
-+++ {"meta": "data"}
 ```
+<br/><br/>
 ```{figure} ace2.jpg
 :figclass: margin
 ---
@@ -21,10 +19,8 @@ height: 150px
 name: ace2
 ---
 Engineering SARS-CoV-2 neutralizing receptor traps.
-+++ {"meta": "data"}
-+++ {"meta": "data"}
-+++ {"meta": "data"}
 ```
+<br/><br/>
 ```{figure} biosensor.png
 :figclass: margin
 ---
@@ -32,11 +28,8 @@ height: 150px
 name: biosensor
 ---
 Computational design of a chemically inducible biosensor.
-+++ {"meta": "data"}
-+++ {"meta": "data"}
-+++ {"meta": "data"}
 ```
-
+<br/><br/>
 
 
 ```{bibliography}
