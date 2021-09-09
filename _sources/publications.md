@@ -35,7 +35,7 @@ Engineering SARS-CoV-2 neutralizing receptor traps.
 height: 150px
 name: biosensor
 ---
-/textit{De novo} design of a protein-based biosensor.
+\textit{De novo} design of a protein-based biosensor.
 ```
 
 ```{margin}
@@ -44,7 +44,8 @@ name: biosensor
 
 ```{figure} nanowires_1.png
 :figclass: margin
----height: 150px
+---
+height: 150px
 name: nanowires_1
 ---
 Filament-templated nanowires.
