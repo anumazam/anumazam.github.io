@@ -32,7 +32,7 @@ Engineering SARS-CoV-2 neutralizing receptor traps.
 ```{figure} biosensor.png
 :figclass: margin
 ---
-height: 50px
+height: 150px
 name: biosensor
 ---
 <i>De novo</i> design of a protein-based biosensor.
@@ -42,15 +42,14 @@ name: biosensor
 <br/>
 ```
 
-```{figure} nanowires_1.png
+```{figure} nanowires_2.png
 :figclass: margin
 ---
 height: 150px
-name: nanowires_1
+name: nanowires_2
 ---
-Filament-templated nanowires.
+Filament-templated metal rods on cells.
 ```
-
 
 ```{margin}
 <br/>
@@ -65,10 +64,49 @@ name: sipD
 A dual role for a <i>Salmonella</i> structural protein.
 ```
 
+```{margin}
+<br/>
+```
 
+```{figure} polymerbox.jpg
+:figclass: margin
+---
+height: 150px
+name: polymerbox
+---
+Biofriendly micro-containers for drug delivery.
+```
+
+```{margin}
+<br/>
+```
+
+```{figure} dodecs.jpg
+:figclass: margin
+---
+height: 150px
+name: dodecs
+---
+Designing self-folding micro-polyhedra.
+```
 
 ```{bibliography}
 :all:
 :style: unsrt
 ```
+
+```{margin}
+<br/>
+```
+
+```{figure} cubes.png
+:figclass: margin
+---
+height: 150px
+name: cubes
+---
+Surface-tension driven self-folding of micro-cubes.
+```
+
+
 <!-- #endregion -->
