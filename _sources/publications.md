@@ -90,11 +90,6 @@ name: dodecs
 Designing self-folding micro-polyhedra.
 ```
 
-```{bibliography}
-:all:
-:style: unsrt
-```
-
 ```{margin}
 <br/>
 ```
@@ -106,6 +101,11 @@ height: 150px
 name: cubes
 ---
 Surface-tension driven self-folding of micro-cubes.
+```
+
+```{bibliography}
+:all:
+:style: unsrt
 ```
 
 
