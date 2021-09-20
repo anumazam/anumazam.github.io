@@ -27,7 +27,6 @@ How are allosteric conformational changes that drive function encoded in protein
 ```
 
 ### Engineering new allostery
-A major challenge in rewiring allosteric proteins is that we don't know how different regions in a protein contribute to its stability, interactions and dynamics relative to other regions, so we don't know exactly what to engineer. Sometimes we can get around this using an evolution approach: by making thousands to millions of random mutations in the protein and screening for the mutants that perform the desired function. But this usually doesn't tell us why the solution works. In our group, we are interested in strategies for *precisely designing new allosteric proteins* that perform completely artificial functions using biophysical data and computational design approaches.
 
 ```{image} research_figures/rewiring_allostery.png
 :alt: rewiring allostery
@@ -35,6 +34,7 @@ A major challenge in rewiring allosteric proteins is that we don't know how diff
 :width:350px
 :align: left
 ```
+A major challenge in rewiring allosteric proteins is that we don't know how different regions in a protein contribute to its stability, interactions and dynamics relative to other regions, so we don't know exactly what to engineer. Sometimes we can get around this using an evolution approach: by making thousands to millions of random mutations in the protein and screening for the mutants that perform the desired function. But this usually doesn't tell us why the solution works. In our group, we are interested in strategies for *precisely designing new allosteric proteins* that perform completely artificial functions using biophysical data and computational design approaches.
 
 ## Protein interactions
 Effective protein therapeutics rely on specific and well-regulated biomolecular interactions, but designing such interactions from scratch is challenging. We will combine the fundamental question of how to build new protein interactions with the critical need to develop robust platforms for rapid response to viral infections, towards versatile and generalizable therapeutic scaffolds. 
