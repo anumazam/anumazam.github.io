@@ -28,8 +28,6 @@ How does allostery evolve? How are allosteric conformational changes that drive 
 
 ### Engineering new allostery
 
-![reeng_allostery](research_figures/reeng_allostery.png)
-
 ```{image} research_figures/reeng_allostery.png
 :alt: reeng allostery
 :class: bg-primary mb-0
