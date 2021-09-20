@@ -17,7 +17,6 @@ Our *long-term goal* is to engineer multi-functional proteins and therapeutics t
 Protein allostery is defined as a perturbation at one site in a protein that causes a functional change at a distal site. Cell signaling depends ubiquitously on allostery, and a fundamental understanding of this phenomenon is key to decoding biological regulation in normal and diseased states. A high-resolution picture of signal transduction in a protein represents a roadmap for designing allosteric drugs targeting that protein. The *main limitation* in uncovering allosteric mechanisms in proteins is that established techniques may not provide enough information about protein structure and dynamics to detail all of the changes caused by perturbations.
 
 ### Mapping allosteric signal transduction
-How does allostery evolve? How are allosteric conformational changes that drive function encoded in protein families? Do conserved intramolecular contacts in homologous proteins enable common conformational changes in response to allosteric perturbations? To answer these questions, we are building a high-throughput platform for precisely tuning thermodynamically coupled residue interactions in *protein fold families* towards a generalizable model of allostery in evolutionarily related proteins.
 
 ```{image} research_figures/mapping_allostery.png
 :alt: mapping allostery
@@ -25,6 +24,8 @@ How does allostery evolve? How are allosteric conformational changes that drive 
 :width: 700px
 :align: center
 ```
+
+How does allostery evolve? How are allosteric conformational changes that drive function encoded in protein families? Do conserved intramolecular contacts in homologous proteins enable common conformational changes in response to allosteric perturbations? To answer these questions, we are building a high-throughput platform for precisely tuning thermodynamically coupled residue interactions in *protein fold families* towards a generalizable model of allostery in evolutionarily related proteins.
 
 ### Engineering new allostery
 
