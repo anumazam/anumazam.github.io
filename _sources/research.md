@@ -28,12 +28,7 @@ How does allostery evolve? How are allosteric conformational changes that drive 
 
 ### Engineering new allostery
 
-```{image} research_figures/mapping_allostery.png
-:alt: rewiring allostery
-:class: bg-primary mb-1
-:width:700px
-:align: center
-```
+![reeng_allostery](research_figures/reeng_allostery.png)
 
 A major challenge in rewiring allosteric proteins is that we don't know how different regions in a protein contribute to its stability, interactions and dynamics relative to other regions, so we don't know exactly what to engineer. Sometimes we can get around this using an evolution approach: by making thousands to millions of random mutations in the protein and screening for the mutants that perform the desired function. But this usually doesn't tell us why the solution works. In our group, we are interested in strategies for *precisely designing new allosteric proteins* that perform completely artificial functions using biophysical data and computational design approaches.
 
