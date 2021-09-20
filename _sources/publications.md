@@ -3,7 +3,7 @@
 ## Publications
 
 
-```{figure} spluc.jpg
+```{figure} ref_figures/spluc.jpg
 :figclass: margin
 ---
 height: 150px
@@ -16,7 +16,7 @@ Solution-based serology to detect COVID antibodies.
 <br/>
 ```
 
-```{figure} ace2.jpg
+```{figure} ref_figures/ace2.jpg
 :figclass: margin
 ---
 height: 150px
@@ -29,7 +29,7 @@ Engineering SARS-CoV-2 neutralizing receptor traps.
 <br/>
 ```
 
-```{figure} biosensor.png
+```{figure} ref_figures/biosensor.png
 :figclass: margin
 ---
 height: 150px
@@ -42,7 +42,7 @@ name: biosensor
 <br/>
 ```
 
-```{figure} nanowires_2.png
+```{figure} ref_figures/nanowires_2.png
 :figclass: margin
 ---
 height: 150px
@@ -55,7 +55,7 @@ Filament-templated metal rods on cells.
 <br/>
 ```
 
-```{figure} sipD.jpg
+```{figure} ref_figures/sipD.jpg
 :figclass: margin
 ---
 height: 150px
@@ -68,7 +68,7 @@ A dual role for a <i>Salmonella</i> structural protein.
 <br/>
 ```
 
-```{figure} polymerbox.jpg
+```{figure} ref_figures/polymerbox.jpg
 :figclass: margin
 ---
 height: 150px
@@ -81,7 +81,7 @@ Biofriendly micro-containers for drug delivery.
 <br/>
 ```
 
-```{figure} dodecs.jpg
+```{figure} ref_figures/dodecs.jpg
 :figclass: margin
 ---
 height: 150px
@@ -94,7 +94,7 @@ Designing self-folding micro-polyhedra.
 <br/>
 ```
 
-```{figure} cubes.png
+```{figure} ref_figures/cubes.png
 :figclass: margin
 ---
 height: 150px
