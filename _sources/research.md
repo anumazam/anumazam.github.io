@@ -17,7 +17,7 @@ Our *long-term goal* is to engineer multi-functional proteins and therapeutics t
 Protein allostery is defined as a perturbation at one site in a protein that causes a functional change at a distal site. Cell signaling depends ubiquitously on allostery, and a fundamental understanding of this phenomenon is key to decoding biological regulation in normal and diseased states. A high-resolution picture of signal transduction in a protein represents a roadmap for designing allosteric drugs targeting that protein. The *main limitation* in uncovering allosteric mechanisms in proteins is that established techniques may not provide enough information about protein structure and dynamics to detail all of the changes caused by perturbations.
 
 ### Mapping allosteric signal transduction
-How are allosteric conformational changes that drive function encoded in protein families? Do conserved intramolecular contacts in homologous proteins enable common conformational changes in response to allosteric perturbations? To answer these questions, we are building a high-throughput platform for precisely tuning thermodynamically coupled residue interactions in *protein fold families* towards a generalizable model of allostery in evolutionarily related proteins.
+How does allostery evolve? How are allosteric conformational changes that drive function encoded in protein families? Do conserved intramolecular contacts in homologous proteins enable common conformational changes in response to allosteric perturbations? To answer these questions, we are building a high-throughput platform for precisely tuning thermodynamically coupled residue interactions in *protein fold families* towards a generalizable model of allostery in evolutionarily related proteins.
 
 ```{image} research_figures/mapping_allostery.png
 :alt: mapping allostery
@@ -28,13 +28,11 @@ How are allosteric conformational changes that drive function encoded in protein
 
 ### Engineering new allostery
 
-adfasdfasf
-
-```{image} research_figures/reeng_allostery.png
+```{image} research_figures/mapping_allostery.png
 :alt: rewiring allostery
 :class: bg-primary mb-1
-:width:350px
-:align: left
+:width:700px
+:align: center
 ```
 
 A major challenge in rewiring allosteric proteins is that we don't know how different regions in a protein contribute to its stability, interactions and dynamics relative to other regions, so we don't know exactly what to engineer. Sometimes we can get around this using an evolution approach: by making thousands to millions of random mutations in the protein and screening for the mutants that perform the desired function. But this usually doesn't tell us why the solution works. In our group, we are interested in strategies for *precisely designing new allosteric proteins* that perform completely artificial functions using biophysical data and computational design approaches.
