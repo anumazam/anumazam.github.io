@@ -2,7 +2,12 @@
 
 The diversity of natural proteins shapes cell- and tissue-level structure and behavior, and advances in protein engineering have enabled the *de novo* design of artificial, super-stable proteins. But real proteins have evolved to depend on biomolecular interactions and conformational flexibility in order to balance stability with function. A *key challenge* in protein engineering is our limited mechanistic understanding of how proteins’ conformational ensembles are poised to perform non-equilibrium processes, which enable their functions.
 
-![design_process](research_figures/design_process.tif)
+```{image} research_figures/design_process.png
+:alt: design-build-test cycle
+:class: bg-primary mb-1
+:width: 300px
+:align: left
+```
 
 **Our research group combines computational protein design with high-throughput biophysical techniques to study biomolecular conformational changes**, towards engineering proteins that change conformations, interact with other molecules, and cross membranes in response to signals. Design principles for building signal-responsive, semi-stable proteins can guide efforts to control the behavior and development of living systems and treat diseases without disrupting healthy cells.
 
@@ -13,12 +18,23 @@ Protein allostery is defined as a perturbation at one site in a protein that cau
 
 ### Mapping signal transduction
 How are allosteric conformational changes that drive function encoded in protein families? Do conserved intramolecular contacts in homologous proteins enable common conformational changes in response to allosteric perturbations? To answer these questions, we are building a high-throughput platform for precisely tuning thermodynamically coupled residue interactions in *protein fold families* towards a generalizable model of allostery in evolutionarily related proteins.
-![mapping_allostery](research_figures/mapping_allostery.png)
+
+```{image} research_figures/mapping_allostery.png
+:alt: mapping allostery
+:class: bg-primary mb-1
+:width: 700px
+:align: center
+```
 
 ### Engineering new allostery
 One of the problems in re-engineering allosteric proteins is that we don't know how different regions in a protein contribute to its dynamics, so we don't know what to engineer. We are interested in developing strategies for precisely designing *new allosteric proteins* that perform completely artificial functions using biophysical data and computational design approaches.
 
-![rewiring_allostery](research_figures/rewiring_allostery.png)
+```{image} research_figures/rewiring_allostery.png
+:alt: rewiring allostery
+:class: bg-primary mb-1
+:width:350px
+:align: left
+```
 
 ## Protein interactions
 Effective protein therapeutics rely on specific and well-regulated biomolecular interactions, but designing such interactions from scratch is challenging. We will combine the fundamental question of how to build new protein interactions with the critical need to develop robust platforms for rapid response to viral infections, towards versatile and generalizable therapeutic scaffolds. 
