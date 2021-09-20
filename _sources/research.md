@@ -32,12 +32,19 @@ How does allostery evolve? How are allosteric conformational changes that drive 
 ```{image} research_figures/reeng_allostery.png
 :alt: reeng allostery
 :class: bg-primary mb-0
-:width: 350 px
+:width: 330px
 :align: left
 ```
 
 The major challenge in rewiring an allosteric protein for a new structure or function is that we don't know how each region in the protein contributes to its stability, interactions, and dynamics. So, we don't know how (or where!) we should engineer the protein to change its behavior in a predictable way. Sometimes we can get around this problem using an evolution approach: by making thousands to millions of random mutations and screening for the mutants that perform the desired function. But this usually doesn't tell us *why* the solution works, and we can't use this strategy for forward-engineering a totally new function. In our group, we are interested in strategies for *precisely designing new allosteric proteins* that perform completely artificial functions using biophysical data and computational design approaches.
 
 ## Protein interactions
-Effective protein therapeutics rely on specific and well-regulated biomolecular interactions, but designing such interactions from scratch is challenging. We will combine the fundamental question of how to build new protein interactions with the critical need to develop robust platforms for rapid response to viral infections, towards versatile and generalizable therapeutic scaffolds. 
+Effective protein therapeutics rely on specific and well-regulated biomolecular interactions, but designing such interactions from scratch is difficult. We will combine the fundamental question of how to build new protein interactions with the critical need to develop robust platforms for rapid response to viral infections, towards versatile and generalizable therapeutic scaffolds.
+
+```{image} research_figures/new_PPIs.png
+:alt: therapeutic scaffolds
+:class: bg-primary mb-1
+:width: 700px
+:align: center
+```
 
