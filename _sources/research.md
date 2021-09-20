@@ -5,7 +5,7 @@ The diversity of natural proteins shapes cell- and tissue-level structure and be
 ```{image} research_figures/design_process.png
 :alt: design-build-test cycle
 :class: bg-primary mb-1
-:width: 300px
+:width: 350px
 :align: left
 ```
 
@@ -27,7 +27,7 @@ How are allosteric conformational changes that drive function encoded in protein
 ```
 
 ### Engineering new allostery
-One of the problems in re-engineering allosteric proteins is that we don't know how different regions in a protein contribute to its dynamics, so we don't know what to engineer. We are interested in developing strategies for precisely designing *new allosteric proteins* that perform completely artificial functions using biophysical data and computational design approaches.
+A major challenge in rewiring allosteric proteins is that we don't know how different regions in a protein contribute to its stability, interactions and dynamics relative to other regions, so we don't know exactly what to engineer. Sometimes we can get around this using an evolution approach: by making thousands to millions of random mutations in the protein and screening for the mutants that perform the desired function. But this usually doesn't tell us why the solution works. In our group, we are interested in strategies for *precisely designing new allosteric proteins* that perform completely artificial functions using biophysical data and computational design approaches.
 
 ```{image} research_figures/rewiring_allostery.png
 :alt: rewiring allostery
