@@ -1,6 +1,10 @@
 **Welcome to the Glasgow Lab!**
 ===
 
+Our lab is interested in design principles underlying dynamic, functional proteins: how proteins change conformations, interact with other biomolecules, and cross membranes. Our work serves the public by exploring new ways to understand and treat disease.
+
+<br/>
+
 ```{image} research_figures/intro_fig.png
 :alt: beta_propeller
 :class: bg-primary mb-1
@@ -9,7 +13,6 @@
 ```
 
 
-Our lab is interested in design principles underlying dynamic, functional proteins: how proteins change conformations, interact with other biomolecules, and cross membranes. Our work serves the public by exploring new ways to understand and treat disease.
 
 <!---
 :::{note}
