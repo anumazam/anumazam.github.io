@@ -1,5 +1,6 @@
 # Research
-**Protein engineering for understanding and rewiring living systems: we rebuild it until we understand it.**
+**Protein engineering for understanding and rewiring living systems:
+we rebuild it until we understand it.**
 
 The diversity of natural proteins shapes cell- and tissue-level structure and behavior, and advances in protein engineering have enabled the *de novo* design of artificial, super-stable proteins. But real proteins have evolved to depend on biomolecular interactions and conformational flexibility in order to balance stability with function. A *key challenge* in protein engineering is overcoming our limited mechanistic understanding of how proteins’ conformational ensembles are poised to perform non-equilibrium processes, which enable their functions.
 

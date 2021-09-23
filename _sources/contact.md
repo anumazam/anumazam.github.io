@@ -1,7 +1,6 @@
-# Contact
+# Join the lab
 
-## Joining the lab
-We are actively recruiting passionate, curious and kind scientists at all levels to our very young lab. Are you interested in protein engineering and biophysics for applications in medicine and energy? We're building something exciting and the sky is the limit. Come work with us!
+We are actively recruiting passionate, curious and kind scientists at all levels to our very young lab. Are you interested in protein engineering and biophysics for applications in medicine and energy? We're building something exciting. Come work with us!
 
 We're hiring in the broad project areas of:
 1) Designing new protein sensors

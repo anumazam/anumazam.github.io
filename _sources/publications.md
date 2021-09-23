@@ -3,11 +3,6 @@
 ## Publications
 
 
-```{bibliography}
-:all:
-:style: unsrt
-```
-
 ```{figure} ref_figures/spluc.jpg
 :figclass: margin
 ---
@@ -106,6 +101,11 @@ height: 150px
 name: cubes
 ---
 Surface-tension driven self-folding of micro-cubes.
+```
+
+```{bibliography}
+:all:
+:style: unsrt
 ```
 
 
