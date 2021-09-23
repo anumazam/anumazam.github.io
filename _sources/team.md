@@ -19,6 +19,9 @@ Anum Glasgow is an incoming assistant professor at Columbia University Irving Me
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
 email: ag452 at cumc dot columbia dot edu
 <br/>
 <br/>
@@ -29,7 +32,7 @@ email: ag452 at cumc dot columbia dot edu
 ```{image} people/bird.png
 :alt: bird
 :class: bg-primary mb-1
-:width: 300px
+:width: 100px
 :align: left
 ```
 

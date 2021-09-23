@@ -53,14 +53,14 @@ In our group, we are interested in strategies for *precisely designing new allos
 ## Protein interactions
 Effective protein therapeutics rely on specific and well-regulated biomolecular interactions, but designing such interactions from scratch is difficult. In the case of antiviral therapeutics, the challenge is intensified by the fact that viruses can easily evolve escape mutations to evade drug-binding. The COVID-19 pandemic continues to demonstrate that for this and other reasons, pharmaceutical companies have few incentives for in-house antiviral drug development pipelines. 
 
-<br/>
+
 ```{image} research_figures/binder_design.png
 :alt: therapeutic scaffolds
 :class: bg-primary mb-1
 :width: 700px
 :align: center
 ```
-<br/>
+
 We combine the fundamental question of how to build new protein interactions with the critical need to develop robust new platforms for rapid response to viral infections, towards versatile and generalizable therapeutic scaffolds.
 
 
