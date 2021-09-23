@@ -6,7 +6,7 @@ The diversity of natural proteins shapes cell- and tissue-level structure and be
 ```{image} research_figures/design_process.png
 :alt: design-build-test cycle
 :class: bg-primary mb-1
-:width: 300px
+:width: 330px
 :align: right
 ```
 
@@ -43,7 +43,9 @@ Towards answering these questions, we are building a high-throughput platform fo
 :align: left
 ```
 
-The major challenge in rewiring an allosteric protein for a new structure or function is that we don't know how each region in the protein contributes to its stability, interactions, and dynamics. So, we don't know how (or where!) we should engineer the protein to change its behavior in a predictable way. Sometimes we can get around this problem using an evolution approach: by making thousands to millions of random mutations and screening for the mutants that perform the desired function. But this usually doesn't tell us *why* the solution works, and we can't use this strategy for forward-engineering a totally new function. In our group, we are interested in strategies for *precisely designing new allosteric proteins* that perform completely artificial functions using biophysical data and computational design approaches.
+The major challenge in rewiring an allosteric protein for a new structure or function is that we don't know how each region in the protein contributes to its stability, interactions, and dynamics. So, we don't know how (or where!) we should engineer the protein to change its behavior in a predictable way. Sometimes we can get around this problem using an evolution approach: by making thousands to millions of random mutations and screening for the mutants that perform the desired function. But this usually doesn't tell us *why* the solution works, and we can't use this strategy for forward-engineering a totally new function.
+
+In our group, we are interested in strategies for *precisely designing new allosteric proteins* that perform completely artificial functions using biophysical data and computational design approaches.
 
 
 
