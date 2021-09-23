@@ -1,7 +1,7 @@
-**Welcome to the Glasgow Lab!**
+**Welcome!**
 ===
 
-Our lab is interested in design principles underlying dynamic, functional proteins: how proteins change conformations, interact with other biomolecules, and cross membranes. Our work serves the public by exploring new ways to understand and treat disease.
+The Glasgow Lab at Columbia University Medical Center is interested in design principles underlying dynamic, functional proteins: how proteins change conformations, interact with other biomolecules, and cross membranes. Our work serves the public by exploring new ways to understand and treat disease.
 
 <br/>
 
@@ -12,7 +12,7 @@ Our lab is interested in design principles underlying dynamic, functional protei
 :align: left
 ```
 
-
+<br/>
 
 <!---
 :::{note}
