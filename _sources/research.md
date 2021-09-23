@@ -1,4 +1,5 @@
-# Protein engineering for understanding and rewiring living systems: we rebuild it until we understand it.
+# Research
+**Protein engineering for understanding and rewiring living systems: we rebuild it until we understand it.**
 
 The diversity of natural proteins shapes cell- and tissue-level structure and behavior, and advances in protein engineering have enabled the *de novo* design of artificial, super-stable proteins. But real proteins have evolved to depend on biomolecular interactions and conformational flexibility in order to balance stability with function. A *key challenge* in protein engineering is overcoming our limited mechanistic understanding of how proteins’ conformational ensembles are poised to perform non-equilibrium processes, which enable their functions.
 
@@ -17,6 +18,7 @@ Our *long-term goal* is to engineer multi-functional proteins and therapeutics t
 Protein allostery is broadly defined as a perturbation at one site in a protein that causes a functional change at another site. Cell signaling depends on allostery, and a fundamental understanding of this phenomenon is key to decoding biological regulation in normal and diseased systems. The *main limitation* in uncovering allosteric mechanisms in proteins is that established techniques usually do not provide enough information about protein structure and dynamics to detail all of changes caused by perturbations.
 
 #### Mapping allosteric signal transduction
+Despite the giant universe of possible protein folds, millions of years of evolution have optimized for only a few thousand that occur naturally and are organized in families. What's special about these protein structures that allows them to be reused over and over for diverse functinos -- and what about all the folds that are possible, but weren't evolved? 
 
 ```{image} research_figures/mapping_allostery.png
 :alt: mapping allostery
@@ -24,7 +26,6 @@ Protein allostery is broadly defined as a perturbation at one site in a protein 
 :width: 700px
 :align: center
 ```
-Despite the giant universe of possible protein folds, millions of years of evolution have optimized for only a few thousand that occur naturally and are organized in families. What's special about these protein structures that allows them to be reused over and over for diverse functinos -- and what about all the folds that are possible, but weren't evolved? 
 
 We are interested in understanding:
 1) how allostery evolves in organisms;
@@ -58,6 +59,15 @@ We combine the fundamental question of how to build new protein interactions wit
 :align: center
 ```
 
+
 ## Protein transport
+```{image} research_figures/secretion.png
+:alt: reengineering protein secretion
+:class: bg-primary mb-1
+:width: 330px
+:align: right
+```
 
+One of the most exciting and essential dynamic processes in living systems is cross-membrane transport. Natural proteins move among cell compartments and between cells in defined, beautifully coordinated ways to enable biological signaling. However, engineering proteins for predictable inter-cellular transport requires knowledge of the biophysical constraints that govern these processes, which can involve cargo protein folding and unfolding.
 
+We are working on uncovering the biophysical requirements for protein export through an ancient, highly selective bacterial secretion system, towards repurposing this system for intracellular protein delivery in mammalian cells. Our approach combines computational and experimental methods to systematically characterize the parameters that influence protein secretion. We can use this information to forward-engineer probiotics that allow human cells to self-regulate inflammation in the gut.
