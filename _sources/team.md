@@ -6,8 +6,8 @@ We welcome applicants from all fields of science and engineering, and all walks 
 ```{image} people/anum.jpg
 :alt: anum-roadtripping
 :class: bg-primary mb-1
-:width: 300px
-:align: center
+:width: 100px
+:align: left
 ```
 
 ```{sidebar} Principal investigator
@@ -24,7 +24,7 @@ email: ag452 at cumc dot columbia dot edu
 :alt: bird
 :class: bg-primary mb-1
 :width: 100px
-:align: center
+:align: left
 ```
 
 ```{sidebar} Our next member
