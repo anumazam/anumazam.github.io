@@ -1,20 +1,20 @@
-# Research
+# Protein engineering for understanding and rewiring living systems: we rebuild it until we understand it.
 
 The diversity of natural proteins shapes cell- and tissue-level structure and behavior, and advances in protein engineering have enabled the *de novo* design of artificial, super-stable proteins. But real proteins have evolved to depend on biomolecular interactions and conformational flexibility in order to balance stability with function. A *key challenge* in protein engineering is overcoming our limited mechanistic understanding of how proteins’ conformational ensembles are poised to perform non-equilibrium processes, which enable their functions.
 
 ```{image} research_figures/design_process.png
 :alt: design-build-test cycle
 :class: bg-primary mb-1
-:width: 320px
+:width: 300px
 :align: right
 ```
 
-**Our research group combines computational protein design with high-throughput biophysical techniques to study biomolecular conformational changes**, towards engineering proteins that change conformations, interact with other molecules, and cross membranes in response to signals. Design principles for building signal-responsive, semi-stable proteins can guide efforts to control the behavior and development of living systems and treat diseases without disrupting healthy cells.
+**The Glasgow Lab combines computational design approaches with high-throughput experimental biophysics to understand the molecular underpinnings of protein behavior.**  Design principles for building signal-responsive, conformation-switching proteins can guide efforts to control the behavior and development of living systems and treat diseases without disrupting healthy cells.
 
-Our *long-term goal* is to engineer multi-functional proteins and therapeutics that respond to ligand binding and correct localization via programmed conformational changes. This work serves the public by growing our knowledge of biomolecular behavior and opening new paths to treat disease.
+Our *long-term goal* is to engineer multi-functional proteins and therapeutics that respond to binding molecules and correct localization via programmed conformational changes. Our work is driven by public need, and we aim to grow our knowledge of biomolecular behavior and open new paths for solving problems in medicine and energy.
 
 ## Protein allostery
-Protein allostery is defined as a perturbation at one site in a protein that causes a functional change at a distal site. Cell signaling depends ubiquitously on allostery, and a fundamental understanding of this phenomenon is key to decoding biological regulation in normal and diseased states. A high-resolution picture of signal transduction in a protein represents a roadmap for designing allosteric drugs targeting that protein. The *main limitation* in uncovering allosteric mechanisms in proteins is that established techniques may not provide enough information about protein structure and dynamics to detail all of the changes caused by perturbations.
+Protein allostery is broadly defined as a perturbation at one site in a protein that causes a functional change at another site. Cell signaling depends on allostery, and a fundamental understanding of this phenomenon is key to decoding biological regulation in normal and diseased systems. The *main limitation* in uncovering allosteric mechanisms in proteins is that established techniques usually do not provide enough information about protein structure and dynamics to detail all of changes caused by perturbations.
 
 #### Mapping allosteric signal transduction
 
@@ -24,8 +24,14 @@ Protein allostery is defined as a perturbation at one site in a protein that cau
 :width: 700px
 :align: center
 ```
+Despite the giant universe of possible protein folds, millions of years of evolution have optimized for only a few thousand that occur naturally and are organized in families. What's special about these protein structures that allows them to be reused over and over for diverse functinos -- and what about all the folds that are possible, but weren't evolved? 
 
-How does allostery evolve? How are allosteric conformational changes that drive function encoded in protein families? Do conserved intramolecular contacts in homologous proteins enable common conformational changes in response to allosteric perturbations? To answer these questions, we are building a high-throughput platform for precisely tuning thermodynamically coupled residue interactions in *protein fold families* towards a generalizable model of allostery in evolutionarily related proteins.
+We are interested in understanding:
+1) how allostery evolves in organisms;
+2) how allosteric conformational changes that drive function are encoded in protein families;
+3) how conserved intramolecular contacts in protein families enable common conformational changes in response to allosteric perturbations.
+
+Towards answering these questions, we are building a high-throughput platform for precisely tuning thermodynamically coupled residue interactions in *protein families* towards a generalizable model for allostery in evolutionarily related proteins.
 
 #### Engineering new allostery
 
@@ -41,12 +47,17 @@ The major challenge in rewiring an allosteric protein for a new structure or fun
 
 
 ## Protein interactions
-Effective protein therapeutics rely on specific and well-regulated biomolecular interactions, but designing such interactions from scratch is difficult. We will combine the fundamental question of how to build new protein interactions with the critical need to develop robust platforms for rapid response to viral infections, towards versatile and generalizable therapeutic scaffolds.
+Effective protein therapeutics rely on specific and well-regulated biomolecular interactions, but designing such interactions from scratch is difficult. In the case of antiviral therapeutics, the challenge is intensified by the fact that viruses can easily evolve escape mutations to evade drug-binding. The COVID-19 pandemic continues to demonstrate that for this and other reasons, pharmaceutical companies have few incentives for in-house antiviral drug development pipelines. 
 
-```{image} research_figures/new_PPIs.png
+We combine the fundamental question of how to build new protein interactions with the critical need to develop robust new platforms for rapid response to viral infections, towards versatile and generalizable therapeutic scaffolds.
+
+```{image} research_figures/binder_design.png
 :alt: therapeutic scaffolds
 :class: bg-primary mb-1
 :width: 700px
 :align: center
 ```
+
+## Protein transport
+
 

@@ -1,7 +1,7 @@
-**Welcome to the Glasgow Lab**
+**Welcome to the Glasgow Lab!**
 ===
 
-Coming soon in January 2022!
+Our lab is interested in design principles underlying dynamic, functional proteins: how proteins change conformations, interact with other biomolecules, and cross membranes. Our work serves the public by exploring new ways to understand and treat disease.
 
 <!---
 :::{note}
