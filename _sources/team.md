@@ -15,10 +15,6 @@ Anum Glasgow is an incoming assistant professor at Columbia University Medical C
 ```
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 email: ag452 at cumc dot columbia dot edu
 <br/>
 <br/>
