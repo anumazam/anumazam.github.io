@@ -12,7 +12,7 @@ And we are always interested in brainstorming new projects, too.
 
 **Postdoctoral candidates** should send Anum a cover letter explaining their research interests, a CV, and contact information for three references.
 
-**Graduate students** at Columbia should send Anum an email to discuss potential projects and rotations! If you're a prospective graduate student, apply to a graduate program at CUMC.
+**Graduate students** at Columbia should send Anum an email to discuss potential projects and rotations! If you're a prospective graduate student, apply to a [graduate program at CUMC](https://www.gsas.cuimc.columbia.edu/degree-programs).
 
 If you are interested in a **research technician** position and have a bachelor's degree in chemistry, biology, computer science, engineering, physics, or a related field, send us an email, too.
 
