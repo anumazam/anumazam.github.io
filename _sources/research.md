@@ -19,7 +19,7 @@ Our *long-term goal* is to engineer multi-functional proteins and therapeutics t
 Protein allostery is broadly defined as a perturbation at one site in a protein that causes a functional change at another site. Cell signaling depends on allostery, and a fundamental understanding of this phenomenon is key to decoding biological regulation in normal and diseased systems. The *main limitation* in uncovering allosteric mechanisms in proteins is that established techniques usually do not provide enough information about protein structure and dynamics to detail all of changes caused by perturbations.
 
 #### Mapping allosteric signal transduction
-Despite the giant universe of possible protein folds, millions of years of evolution have optimized for only a few thousand that occur naturally and are organized in families. What's special about these groups of orotein structures that allows them to be reused over and over for diverse functions -- and what about all the folds that are possible, but weren't evolved? 
+Despite the giant universe of possible protein folds, millions of years of evolution have optimized for only a few thousand that occur naturally and are organized in families. What's special about these groups of protein structures that allows them to be reused over and over for diverse functions -- and what about all the folds that are possible, but weren't evolved? 
 
 ```{image} research_figures/mapping_allostery.png
 :alt: mapping allostery
