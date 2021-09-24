@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <title>Team</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -42,8 +42,17 @@
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <link rel="index" title="Index" href="#" />
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Research" href="projects.html" />
+    <link rel="prev" title="Welcome!" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -82,9 +91,9 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="people.html">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Team
   </a>
  </li>
@@ -136,6 +145,23 @@
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/people.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
             <!-- Full screen (wrap in <a> to have style consistency -->
@@ -160,13 +186,63 @@
         
               <div>
                 
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="team">
+<h1>Team<a class="headerlink" href="#team" title="Permalink to this headline">¶</a></h1>
+<p>We are recruiting!
+We welcome applicants from all fields of science and engineering, and all walks of life.</p>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/anum.jpg"><img alt="anum-roadtripping" class="bg-primary mb-1 align-left" src="_images/anum.jpg" style="width: 300px;" /></a>
+<div class="sidebar">
+<p class="sidebar-title">Principal investigator</p>
+<p>Anum Glasgow is an incoming assistant professor at Columbia University Medical Center in the <a class="reference external" href="https://www.biochem.cuimc.columbia.edu/">Department of Biochemistry and Molecular Biophysics</a>. Anum got excited about research as an undergraduate in the <a class="reference external" href="https://graciaslab.johnshopkins.edu/">Gracias Lab</a> building self-folding micro-structures. In graduate school, she studied nature’s most beautiful self-folding systems – proteins – in the <a class="reference external" href="https://dtelab.northwestern.edu/">DTE Lab</a> at UC Berkeley. For the last five years, Anum moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the <a class="reference external" href="http://kortemmelab.ucsf.edu/">Kortemme Lab</a> at UCSF. Anum is excited to have fun doing protein science in NYC!!</p>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+email: ag4522 at cumc dot columbia dot edu
+<br/>
+<br/>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/bird.png"><img alt="bird" class="bg-primary mb-1 align-left" src="_images/bird.png" style="width: 300px;" /></a>
+<div class="sidebar">
+<p class="sidebar-title">Our next member</p>
+<p>Are you interested in joining us? We are excited to have you.</p>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
@@ -177,6 +253,24 @@
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="intro.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title"><strong>Welcome!</strong></p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="projects.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Research</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         

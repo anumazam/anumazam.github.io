@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <title>Positions</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -42,8 +42,16 @@
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <link rel="index" title="Index" href="#" />
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Publications" href="publications.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -82,7 +90,7 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="people.html">
    Team
@@ -98,8 +106,8 @@
    Publications
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="recruit.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Positions
   </a>
  </li>
@@ -136,6 +144,23 @@
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/recruit.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
             <!-- Full screen (wrap in <a> to have style consistency -->
@@ -160,13 +185,42 @@
         
               <div>
                 
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="positions">
+<h1>Positions<a class="headerlink" href="#positions" title="Permalink to this headline">¶</a></h1>
+<p><strong>Join the lab.</strong> We are actively recruiting passionate, curious and kind scientists at all levels to our very young lab. Are you interested in protein engineering and biophysics for applications in medicine and energy? We’re building something exciting. Come work with us!</p>
+<p>We’re hiring in the broad project areas of:</p>
+<ol class="simple">
+<li><p>Designing new protein sensors</p></li>
+<li><p>Studying the evolution of natural protein sensors</p></li>
+<li><p>Engineering antiviral therapeutics</p></li>
+<li><p>Probing the biophysical basis for intercellular protein transport</p></li>
+</ol>
+<p>And we are always interested in brainstorming new projects, too.</p>
+<p><strong>Postdoctoral candidates</strong> should send Anum a cover letter explaining their research interests, a CV, and contact information for three references.</p>
+<p><strong>Graduate students</strong> at Columbia should send Anum an email to discuss potential projects and rotations! If you’re a prospective graduate student, apply to a <a class="reference external" href="https://www.gsas.cuimc.columbia.edu/degree-programs">graduate program at CUMC</a>.</p>
+<p>If you are interested in a <strong>research technician</strong> position and have a bachelor’s degree in chemistry, biology, computer science, engineering, physics, or a related field, send us an email, too.</p>
+<p>We also welcome local <strong>undergraduates</strong> who are interested in working on computational or experimental projects. Get in touch!</p>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
@@ -177,6 +231,15 @@
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="publications.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Publications</p>
+            </div>
+        </a>
+    </div>
 
 </div>
         
