@@ -5,7 +5,7 @@ The Glasgow Lab at Columbia University Medical Center is interested in design pr
 
 <br/>
 
-```{image} research_figures/intro_fig.png
+```{image} research_figures/intro_fig-01.png
 :alt: beta_propeller
 :class: bg-primary mb-1
 :width: 700px
