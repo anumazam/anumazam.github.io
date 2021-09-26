@@ -1,13 +1,8 @@
 # Team
+````{div} full width
 
 We are recruiting!
 We welcome applicants from all fields of science and engineering, and all walks of life.
-
-```{div} full width
-
-*Principal investigator*
-Anum Glasgow is an incoming assistant professor at Columbia University Medical Center in the [Department of Biochemistry and Molecular Biophysics](https://www.biochem.cuimc.columbia.edu/). Anum got excited about research as an undergraduate in the [Gracias Lab](https://graciaslab.johnshopkins.edu/) building self-folding micro-structures. In graduate school, she studied nature's most beautiful self-folding systems -- proteins -- in the [DTE Lab](https://dtelab.northwestern.edu/) at UC Berkeley. For the last five years, Anum moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the [Kortemme Lab](http://kortemmelab.ucsf.edu/) at UCSF. Anum is excited to have fun doing protein science in NYC!! 
-
 
 ```{image} people/anum.jpg
 :alt: anum-roadtripping
@@ -15,6 +10,8 @@ Anum Glasgow is an incoming assistant professor at Columbia University Medical C
 :width: 300px
 :align: right
 ```
+*Principal investigator*
+Anum Glasgow is an incoming assistant professor at Columbia University Medical Center in the [Department of Biochemistry and Molecular Biophysics](https://www.biochem.cuimc.columbia.edu/). Anum got excited about research as an undergraduate in the [Gracias Lab](https://graciaslab.johnshopkins.edu/) building self-folding micro-structures. In graduate school, she studied nature's most beautiful self-folding systems -- proteins -- in the [DTE Lab](https://dtelab.northwestern.edu/) at UC Berkeley. For the last five years, Anum moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the [Kortemme Lab](http://kortemmelab.ucsf.edu/) at UCSF. Anum is excited to have fun doing protein science in NYC!! 
 
 email: ag4522 at cumc dot columbia dot edu
 
@@ -28,4 +25,4 @@ email: ag4522 at cumc dot columbia dot edu
 *Our next member*
 Are you interested in joining us? We are excited to have you.
 
-```
+````
