@@ -4,8 +4,10 @@
 
 We are recruiting!
 We welcome applicants from all fields of science and engineering, and all walks of life.
+```
 
 ````{panels}
+:class: full-width
 *Principal investigator*
 ^^^
 ```{image} people/anum.jpg
@@ -30,5 +32,3 @@ email: ag4522 at cumc dot columbia dot edu
 
 Are you interested in joining us? We are excited to have you.
 ````
-
-```
