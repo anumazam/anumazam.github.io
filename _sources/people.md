@@ -8,7 +8,7 @@ We welcome applicants from all fields of science and engineering, and all walks 
 
 ````{panels}
 :column: col-lg-12 p-2
-:body: bg-primary text-justify
+:body: text-justify
 *Principal investigator*
 ^^^
 ```{image} people/anum.jpg
@@ -24,7 +24,7 @@ email: ag4522 at cumc dot columbia dot edu
 
 ````{panels}
 :column: col-lg-12 p-2
-:body: bg-primary text-justify
+:body: text-justify
 *Our next member*
 ^^^
 ```{image} people/bird.png
@@ -33,6 +33,6 @@ email: ag4522 at cumc dot columbia dot edu
 :width: 220px
 :align: left
 ```
-
+<br/>
 Are you interested in joining us? We are excited to have you.
 ````
