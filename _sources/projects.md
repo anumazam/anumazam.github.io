@@ -60,7 +60,7 @@ Effective protein therapeutics rely on specific and well-regulated biomolecular 
 :width: 700px
 :align: center
 ```
-
+<br/>
 We combine the fundamental question of how to build new protein interactions with the critical need to develop robust new platforms for rapid response to viral infections, towards versatile and generalizable therapeutic scaffolds.
 
 
