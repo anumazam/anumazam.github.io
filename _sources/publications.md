@@ -15,8 +15,6 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 +++
 +++
 +++
-<br/>
-<br/>
 
 ```{image} ref_figures/ace2.jpg
 :height: 250px
@@ -24,7 +22,8 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 :align: right
 :alt: Engineering SARS-CoV-2 neutralizing receptor traps.
 ```
-
+<br/>
+<br/>
 __Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Zhang, Matthew A. Nix, Nicholas J. Rettko, Shoshana Zha, Rachel Yamin, Kevin Kao, Oren S. Rosenberg, Jeffrey V. Ravetch, Arun P. Wiita, Kevin K. Leung, Shion A. Lim, Xin X. Zhou, Tom C. Hobman, Tanja Kortemme, and James A. Wells. [Engineered ACE2 receptor traps potently neutralize SARS-CoV-2.](doi:10.1073/pnas.2016093117) *Proceedings of the National Academy of Sciences*, 117(45):28046–28055, November 2020.
 
 +++
@@ -111,6 +110,8 @@ Kevin J. Metcalf, Casey Finnerty, __Anum Azam__, Elias Valdivia, and Danielle Tu
 :align: left
 :alt: Biofriendly micro-containers for drug delivery.
 ```
+<br/>
+
 __Anum Azam__, Kate E. Laflin, Mustapha Jamal, Rohan Fernandes, and David H. Gracias. [Self-folding micropatterned polymeric containers.](doi:10.1007/s10544-010-9470-x) *Biomedical Microdevices*, 13(1):51–58, February 2011.
 
 +++
@@ -135,6 +136,7 @@ Jeong-Hyun Cho, __Anum Azam__, and David H. Gracias. [Three Dimensional Nanofabr
 ```
 
 <br/>
+<br/>
 
 David J. Filipiak\*, __Anum Azam\*__, Timothy G. Leong, and David H. Gracias. [Hierarchical self-assembly of complex polyhedral microcontainers.](doi:10.1088/0960-1317/19/7/075012) *Journal of Micromechanics and Microengineering*, 19(7):075012, June 2009.
 
@@ -143,8 +145,6 @@ David J. Filipiak\*, __Anum Azam\*__, Timothy G. Leong, and David H. Gracias. [H
 +++
 +++
 +++
-<br/>
-<br/>
 
 __Anum Azam__, Timothy G. Leong, Aasiyeh M. Zarafshar, and David H. Gracias. [Compactness Determines the Success of Cube and Octahedron Self-Assembly.](doi:10.1371/journal.pone.0004451) *PLOS ONE*, 4(2):e4451, February 2009.
 
