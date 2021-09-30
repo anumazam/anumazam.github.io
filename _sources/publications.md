@@ -4,7 +4,7 @@
 
 
 ```{image} ref_figures/spluc.jpg
-:height: 150px
+:height: 110px
 :class: bg-primary mb-1
 :align: left
 :alt: Solution-based serology to detect COVID antibodies.
@@ -26,6 +26,9 @@ Anum Glasgow\*, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Z
 
 ---
 ```
+<br/>
+<br/>
+<br/>
 
 ```{image} ref_figures/biosensor.png
 :height: 110px
@@ -34,7 +37,6 @@ Anum Glasgow\*, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Z
 :alt: De novo design of a protein-based biosensor.
 ```
 ```{div} full-width
-
 
 Anum A. Glasgow\*, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, Ryan Ritterson, Amanda L. Loshbaugh, Jenna Pellegrino, Cody Krivacic, Roland A. Pache, Kyle A. Barlow, Noah Ollikainen, Deborah Jeon, Mark J. S. Kelly, James S. Fraser, and Tanja Kortemme. Computational design of a modular protein sense/response system. Science, 366(6468):1024–1028, November 2019. doi:10.1126/science.aax8780.
 
@@ -48,10 +50,10 @@ Anum Azam Glasgow and Danielle Tullman-Ercek. Type III Secretion Filaments as Te
 ```
 
 ```{image} ref_figures/sipD.jpg
-:height: 150px
+:height: 100px
 :class: bg-primary mb-1
 :align: left
-:alt: A dual role for a <i>Salmonella</i> structural protein.
+:alt: A dual role for a Salmonella structural protein.
 ```
 ```{div} full-width
 
@@ -62,7 +64,7 @@ Anum Azam Glasgow, Han Teng Wong, and Danielle Tullman-Ercek. A Secretion-Amplif
 
 ```{image} ref_figures/nanowires_2.png
 ---
-:height: 100px
+:height: 150px
 :class: bg-primary mb-1
 :align: left
 :alt: Filament-templated metal rods on cells.
