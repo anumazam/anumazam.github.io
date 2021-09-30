@@ -20,11 +20,15 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 +++
 
 ```{image} ref_figures/ace2.jpg
-:height: 230px
+:height: 250px
 :class: bg-primary mb-1
 :align: right
 :alt: Engineering SARS-CoV-2 neutralizing receptor traps.
 ```
+
+<br/>
+<br/>
+
 __Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Zhang, Matthew A. Nix, Nicholas J. Rettko, Shoshana Zha, Rachel Yamin, Kevin Kao, Oren S. Rosenberg, Jeffrey V. Ravetch, Arun P. Wiita, Kevin K. Leung, Shion A. Lim, Xin X. Zhou, Tom C. Hobman, Tanja Kortemme, and James A. Wells. [Engineered ACE2 receptor traps potently neutralize SARS-CoV-2.](https://www.doi.org/10.1073/pnas.2016093117) *Proceedings of the National Academy of Sciences*, 117(45):28046–28055, November 2020.
 
 +++
@@ -145,9 +149,7 @@ David J. Filipiak\*, __Anum Azam\*__, Timothy G. Leong, and David H. Gracias. [H
 
 <br/>
 <br/>
-+++
-+++
-+++
+<br/>
 
 __Anum Azam__, Timothy G. Leong, Aasiyeh M. Zarafshar, and David H. Gracias. [Compactness Determines the Success of Cube and Octahedron Self-Assembly.](https://www.doi.org/10.1371/journal.pone.0004451) *PLOS ONE*, 4(2):e4451, February 2009.
 
