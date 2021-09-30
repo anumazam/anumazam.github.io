@@ -1,6 +1,6 @@
 # Team
 
-````{div} full-width
+`````{div} full-width
 
 We are recruiting!
 We welcome applicants from all fields of science and engineering, and all walks of life.`
