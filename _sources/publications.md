@@ -2,11 +2,10 @@
 (my-label)=
 ## Publications
 
-```{div} full-width
-
 Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Irene Lui, Katarina Pance, Shion A. Lim, Jeff E. Glasgow, Anum A. Glasgow, Keirstinne Turcios, Nikita S. Iyer, Leonel Torres, Michael J. Peluso, Timothy J. Henrich, Taia T. Wang, Cristina M. Tato, Kevin K. Leung, Bryan Greenhouse, and James A. Wells. Engineering luminescent biosensors for point-of-care SARS-CoV-2 antibody detection. Nature Biotechnology, 39(8):928–935, August 2021. doi:10.1038/s41587-021-00878-8.
 
 ```{figure} ref_figures/spluc.jpg
+:figclass:margin
 ---
 height: 150px
 name: spluc
@@ -114,5 +113,4 @@ name: cubes
 Surface-tension driven self-folding of micro-cubes.
 ```
 
-```
 <!-- #endregion -->
