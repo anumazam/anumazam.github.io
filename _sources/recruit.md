@@ -1,5 +1,7 @@
 # Positions
 
+```{div} full-width
+
 **Join the lab.** We are actively recruiting passionate, curious and kind scientists at all levels to our very young lab. Are you interested in protein design and biophysics? We're building something exciting, and we care a lot about cultivating a culture of collaboration, good mentorship, and having fun doing science. Come work with us!
 
 We're hiring in the broad project areas of:
@@ -16,4 +18,6 @@ And we are always interested in brainstorming new projects, too.
 
 If you are interested in a **research technician** position and have a bachelor's degree in chemistry, biology, computer science, engineering, physics, or a related field, send us an email, too.
 
-We also welcome local **undergraduates** who are interested in working on computational or experimental projects. Get in touch! 
+We also welcome local **undergraduates** who are interested in working on computational or experimental projects. Get in touch!
+
+``` 

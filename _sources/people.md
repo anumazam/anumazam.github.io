@@ -1,10 +1,9 @@
 # Team
 
-```{div} full-width
+````{div} full-width
 
 We are recruiting!
-We welcome applicants from all fields of science and engineering, and all walks of life.
-```
+We welcome applicants from all fields of science and engineering, and all walks of life.`
 
 ````{panels}
 :column: col-lg-12 p-2
@@ -36,3 +35,5 @@ Are you interested in joining us?
 We are excited to have you.
 <br/>
 ````
+
+`````
