@@ -28,9 +28,9 @@ Anum Glasgow\*, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Z
 ```
 
 ```{image} ref_figures/biosensor.png
-:height: 200px
+:height: 150px
 :class: bg-primary mb-1
-:align: left
+:align: right
 :alt: De novo design of a protein-based biosensor.
 ```
 ```{div} full-width
@@ -39,13 +39,6 @@ Anum A. Glasgow\*, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, Ryan
 ---
 ```
 
-```{image} ref_figures/nanowires_2.png
----
-:height: 100px
-:class: bg-primary mb-1
-:align: left
-:alt: Filament-templated metal rods on cells.
-```
 ```{div} full-width
 Anum Azam Glasgow and Danielle Tullman-Ercek. Type III Secretion Filaments as Templates for Metallic Nanostructure Synthesis. Methods in Molecular Biology, 1798:155–171, 2018. doi:10.1007/978-1-4939-7893-9_12.
 
@@ -62,7 +55,16 @@ Anum Azam Glasgow and Danielle Tullman-Ercek. Type III Secretion Filaments as Te
 Anum Azam Glasgow, Han Teng Wong, and Danielle Tullman-Ercek. A Secretion-Amplification Role for Salmonella enterica Translocon Protein SipD. ACS Synthetic Biology, 6(6):1006–1015, June 2017. doi:10.1021/acssynbio.6b00335.
 
 ---
+```
 
+```{image} ref_figures/nanowires_2.png
+---
+:height: 100px
+:class: bg-primary mb-1
+:align: left
+:alt: Filament-templated metal rods on cells.
+```
+```{div} full-width
 Anum Azam and Danielle Tullman-Ercek. Type-III secretion filaments as scaffolds for inorganic nanostructures. Journal of the Royal Society Interface, 13(114):20150938, January 2016. doi:10.1098/rsif.2015.0938.
 
 ---
@@ -93,9 +95,9 @@ Jeong-Hyun Cho, Anum Azam, and David H. Gracias. Three Dimensional Nanofabricati
 ```
 
 ```{image} ref_figures/dodecs.jpg
-:height: 150px
+:height: 200px
 :class: bg-primary mb-1
-:align: left
+:align: right
 :alt: Designing self-folding micro-polyhedra.
 ```
 ```{div} full-width
