@@ -4,10 +4,10 @@
 
 
 ```{figure} ref_figures/spluc.jpg
-:figclass:margin
 ---
 height: 150px
 name: spluc
+align: right
 ---
 Solution-based serology to detect COVID antibodies.
 ```
@@ -17,10 +17,10 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 ---
 
 ```{figure} ref_figures/ace2.jpg
-:figclass: margin
 ---
 height: 150px
 name: ace2
+align: right
 ---
 Engineering SARS-CoV-2 neutralizing receptor traps.
 ```
@@ -30,10 +30,10 @@ Anum Glasgow\*, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Z
 ---
 
 ```{figure} ref_figures/biosensor.png
-:figclass: margin
 ---
 height: 150px
 name: biosensor
+align:right
 ---
 <i>De novo</i> design of a protein-based biosensor.
 ```
@@ -43,10 +43,10 @@ Anum A. Glasgow\*, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, Ryan
 ---
 
 ```{figure} ref_figures/nanowires_2.png
-:figclass: margin
 ---
 height: 150px
 name: nanowires_2
+align:right
 ---
 Filament-templated metal rods on cells.
 ```
@@ -56,10 +56,10 @@ Anum Azam Glasgow and Danielle Tullman-Ercek. Type III Secretion Filaments as Te
 ---
 
 ```{figure} ref_figures/sipD.jpg
-:figclass: margin
 ---
 height: 150px
 name: sipD
+align: right
 ---
 A dual role for a <i>Salmonella</i> structural protein.
 ```
@@ -81,10 +81,10 @@ Kevin J. Metcalf, Casey Finnerty, Anum Azam, Elias Valdivia, and Danielle Tullma
 ---
 
 ```{figure} ref_figures/polymerbox.jpg
-:figclass: margin
 ---
 height: 150px
 name: polymerbox
+align:right
 ---
 Biofriendly micro-containers for drug delivery.
 ```
@@ -98,10 +98,10 @@ Jeong-Hyun Cho, Anum Azam, and David H. Gracias. Three Dimensional Nanofabricati
 ---
 
 ```{figure} ref_figures/dodecs.jpg
-:figclass: margin
 ---
 height: 150px
 name: dodecs
+align: right
 ---
 Designing self-folding micro-polyhedra.
 ```
@@ -111,10 +111,10 @@ David J. Filipiak\*, Anum Azam\*, Timothy G. Leong, and David H. Gracias. Hierar
 ---
 
 ```{figure} ref_figures/cubes.png
-:figclass: margin
 ---
 height: 150px
 name: cubes
+align:right
 ---
 Surface-tension driven self-folding of micro-cubes.
 ```
