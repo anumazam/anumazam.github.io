@@ -17,18 +17,17 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 +++
 
 ```{image} ref_figures/ace2.jpg
-:height: 250px
+:height: 230px
 :class: bg-primary mb-1
 :align: right
 :alt: Engineering SARS-CoV-2 neutralizing receptor traps.
 ```
-<br/>
-<br/>
 __Anum Glasgow\*__, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Zhang, Matthew A. Nix, Nicholas J. Rettko, Shoshana Zha, Rachel Yamin, Kevin Kao, Oren S. Rosenberg, Jeffrey V. Ravetch, Arun P. Wiita, Kevin K. Leung, Shion A. Lim, Xin X. Zhou, Tom C. Hobman, Tanja Kortemme, and James A. Wells. [Engineered ACE2 receptor traps potently neutralize SARS-CoV-2.](doi:10.1073/pnas.2016093117) *Proceedings of the National Academy of Sciences*, 117(45):28046–28055, November 2020.
 
 +++
 +++
 +++
+<br/>
 <br/>
 <br/>
 
