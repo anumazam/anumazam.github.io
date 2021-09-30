@@ -3,13 +3,11 @@
 ## Publications
 
 
-```{figure} ref_figures/spluc.jpg
----
-height: 150px
-name: spluc
-align: left
----
-Solution-based serology to detect COVID antibodies.
+```{image} ref_figures/spluc.jpg
+:height: 150px
+:class: bg-primary mb-1
+:align: left
+:alt: Solution-based serology to detect COVID antibodies.
 ```
 ```{div} full-width
 Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Irene Lui, Katarina Pance, Shion A. Lim, Jeff E. Glasgow, Anum A. Glasgow, Keirstinne Turcios, Nikita S. Iyer, Leonel Torres, Michael J. Peluso, Timothy J. Henrich, Taia T. Wang, Cristina M. Tato, Kevin K. Leung, Bryan Greenhouse, and James A. Wells. Engineering luminescent biosensors for point-of-care SARS-CoV-2 antibody detection. Nature Biotechnology, 39(8):928–935, August 2021. doi:10.1038/s41587-021-00878-8.
@@ -17,13 +15,11 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 ---
 ```
 
-```{figure} ref_figures/ace2.jpg
----
-height: 150px
-name: ace2
-align: left
----
-Engineering SARS-CoV-2 neutralizing receptor traps.
+```{image} ref_figures/ace2.jpg
+:height: 150px
+:class: bg-primary mb-1
+:align: left
+:alt: Engineering SARS-CoV-2 neutralizing receptor traps.
 ```
 ```{div} full-width
 Anum Glasgow\*, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Zhang, Matthew A. Nix, Nicholas J. Rettko, Shoshana Zha, Rachel Yamin, Kevin Kao, Oren S. Rosenberg, Jeffrey V. Ravetch, Arun P. Wiita, Kevin K. Leung, Shion A. Lim, Xin X. Zhou, Tom C. Hobman, Tanja Kortemme, and James A. Wells. Engineered ACE2 receptor traps potently neutralize SARS-CoV-2. Proceedings of the National Academy of Sciences, 117(45):28046–28055, November 2020. doi:10.1073/pnas.2016093117.
@@ -31,13 +27,11 @@ Anum Glasgow\*, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Z
 ---
 ```
 
-```{figure} ref_figures/biosensor.png
----
-height: 150px
-name: biosensor
-align:left
----
-<i>De novo</i> design of a protein-based biosensor.
+```{image} ref_figures/biosensor.png
+:height: 150px
+:class bg-primary mb-1
+:align: left
+:alt: De novo design of a protein-based biosensor.
 ```
 ```{div} full-width
 Anum A. Glasgow\*, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, Ryan Ritterson, Amanda L. Loshbaugh, Jenna Pellegrino, Cody Krivacic, Roland A. Pache, Kyle A. Barlow, Noah Ollikainen, Deborah Jeon, Mark J. S. Kelly, James S. Fraser, and Tanja Kortemme. Computational design of a modular protein sense/response system. Science, 366(6468):1024–1028, November 2019. doi:10.1126/science.aax8780.
@@ -45,26 +39,23 @@ Anum A. Glasgow\*, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, Ryan
 ---
 ```
 
-```{figure} ref_figures/nanowires_2.png
+```{image} ref_figures/nanowires_2.png
 ---
-height: 150px
-name: nanowires_2
-align:right
----
-Filament-templated metal rods on cells.
+:height: 150px
+:class: bg-primary mb-1
+:align: left
+:alt: Filament-templated metal rods on cells.
 ```
 
 Anum Azam Glasgow and Danielle Tullman-Ercek. Type III Secretion Filaments as Templates for Metallic Nanostructure Synthesis. Methods in Molecular Biology, 1798:155–171, 2018. doi:10.1007/978-1-4939-7893-9_12.
 
 ---
 
-```{figure} ref_figures/sipD.jpg
----
-height: 150px
-name: sipD
-align: right
----
-A dual role for a <i>Salmonella</i> structural protein.
+```{image} ref_figures/sipD.jpg
+:height: 150px
+:class: bg-primary mb-1
+:align: left
+:alt: A dual role for a <i>Salmonella</i> structural protein.
 ```
 
 Anum Azam Glasgow, Han Teng Wong, and Danielle Tullman-Ercek. A Secretion-Amplification Role for Salmonella enterica Translocon Protein SipD. ACS Synthetic Biology, 6(6):1006–1015, June 2017. doi:10.1021/acssynbio.6b00335.
@@ -83,13 +74,11 @@ Kevin J. Metcalf, Casey Finnerty, Anum Azam, Elias Valdivia, and Danielle Tullma
 
 ---
 
-```{figure} ref_figures/polymerbox.jpg
----
-height: 150px
-name: polymerbox
-align:right
----
-Biofriendly micro-containers for drug delivery.
+```{image} ref_figures/polymerbox.jpg
+:height: 150px
+:class: bg-primary mb-1
+:align: left
+:alt: Biofriendly micro-containers for drug delivery.
 ```
 
 Anum Azam, Kate E. Laflin, Mustapha Jamal, Rohan Fernandes, and David H. Gracias. Self-folding micropatterned polymeric containers. Biomedical Microdevices, 13(1):51–58, February 2011. doi:10.1007/s10544-010-9470-x.
@@ -100,26 +89,22 @@ Jeong-Hyun Cho, Anum Azam, and David H. Gracias. Three Dimensional Nanofabricati
 
 ---
 
-```{figure} ref_figures/dodecs.jpg
----
-height: 150px
-name: dodecs
-align: right
----
-Designing self-folding micro-polyhedra.
+```{image} ref_figures/dodecs.jpg
+:height: 150px
+:class: bg-primary mb-1
+:align: left
+:alt: Designing self-folding micro-polyhedra.
 ```
 
 David J. Filipiak\*, Anum Azam\*, Timothy G. Leong, and David H. Gracias. Hierarchical self-assembly of complex polyhedral microcontainers. Journal of Micromechanics and Microengineering, 19(7):075012, June 2009. doi:10.1088/0960-1317/19/7/075012.
 
 ---
 
-```{figure} ref_figures/cubes.png
----
-height: 150px
-name: cubes
-align:right
----
-Surface-tension driven self-folding of micro-cubes.
+```{image} ref_figures/cubes.png
+:height: 150px
+:class: bg-primary mb-1
+:align: left
+:alt: Surface-tension driven self-folding of micro-cubes.
 ```
 
 Anum Azam, Timothy G. Leong, Aasiyeh M. Zarafshar, and David H. Gracias. Compactness Determines the Success of Cube and Octahedron Self-Assembly. PLOS ONE, 4(2):e4451, February 2009. doi:10.1371/journal.pone.0004451.
