@@ -16,7 +16,7 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 ```
 
 ```{image} ref_figures/ace2.jpg
-:height: 150px
+:height: 300px
 :class: bg-primary mb-1
 :align: left
 :alt: Engineering SARS-CoV-2 neutralizing receptor traps.
@@ -28,8 +28,8 @@ Anum Glasgow\*, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Z
 ```
 
 ```{image} ref_figures/biosensor.png
-:height: 150px
-:class bg-primary mb-1
+:height: 200px
+:class: bg-primary mb-1
 :align: left
 :alt: De novo design of a protein-based biosensor.
 ```
@@ -41,15 +41,16 @@ Anum A. Glasgow\*, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, Ryan
 
 ```{image} ref_figures/nanowires_2.png
 ---
-:height: 150px
+:height: 100px
 :class: bg-primary mb-1
 :align: left
 :alt: Filament-templated metal rods on cells.
 ```
-
+```{div} full-width
 Anum Azam Glasgow and Danielle Tullman-Ercek. Type III Secretion Filaments as Templates for Metallic Nanostructure Synthesis. Methods in Molecular Biology, 1798:155–171, 2018. doi:10.1007/978-1-4939-7893-9_12.
 
 ---
+```
 
 ```{image} ref_figures/sipD.jpg
 :height: 150px
@@ -57,7 +58,7 @@ Anum Azam Glasgow and Danielle Tullman-Ercek. Type III Secretion Filaments as Te
 :align: left
 :alt: A dual role for a <i>Salmonella</i> structural protein.
 ```
-
+```{div} full-width
 Anum Azam Glasgow, Han Teng Wong, and Danielle Tullman-Ercek. A Secretion-Amplification Role for Salmonella enterica Translocon Protein SipD. ACS Synthetic Biology, 6(6):1006–1015, June 2017. doi:10.1021/acssynbio.6b00335.
 
 ---
@@ -73,6 +74,7 @@ Anum Azam, Cheng Li, Kevin J. Metcalf, and Danielle Tullman-Ercek. Type III secr
 Kevin J. Metcalf, Casey Finnerty, Anum Azam, Elias Valdivia, and Danielle Tullman-Ercek. Using Transcriptional Control To Increase Titers of Secreted Heterologous Proteins by the Type III Secretion System. Applied and Environmental Microbiology, 80(19):5927–5934, October 2014. doi:10.1128/AEM.01330-14.
 
 ---
+```
 
 ```{image} ref_figures/polymerbox.jpg
 :height: 150px
@@ -80,7 +82,7 @@ Kevin J. Metcalf, Casey Finnerty, Anum Azam, Elias Valdivia, and Danielle Tullma
 :align: left
 :alt: Biofriendly micro-containers for drug delivery.
 ```
-
+```{div} full-width
 Anum Azam, Kate E. Laflin, Mustapha Jamal, Rohan Fernandes, and David H. Gracias. Self-folding micropatterned polymeric containers. Biomedical Microdevices, 13(1):51–58, February 2011. doi:10.1007/s10544-010-9470-x.
 
 ---
@@ -88,6 +90,7 @@ Anum Azam, Kate E. Laflin, Mustapha Jamal, Rohan Fernandes, and David H. Gracias
 Jeong-Hyun Cho, Anum Azam, and David H. Gracias. Three Dimensional Nanofabrication Using Surface Forces. Langmuir, 26(21):16534–16539, November 2010. doi:10.1021/la1013889.
 
 ---
+```
 
 ```{image} ref_figures/dodecs.jpg
 :height: 150px
@@ -95,10 +98,11 @@ Jeong-Hyun Cho, Anum Azam, and David H. Gracias. Three Dimensional Nanofabricati
 :align: left
 :alt: Designing self-folding micro-polyhedra.
 ```
-
+```{div} full-width
 David J. Filipiak\*, Anum Azam\*, Timothy G. Leong, and David H. Gracias. Hierarchical self-assembly of complex polyhedral microcontainers. Journal of Micromechanics and Microengineering, 19(7):075012, June 2009. doi:10.1088/0960-1317/19/7/075012.
 
 ---
+```
 
 ```{image} ref_figures/cubes.png
 :height: 150px
@@ -106,7 +110,7 @@ David J. Filipiak\*, Anum Azam\*, Timothy G. Leong, and David H. Gracias. Hierar
 :align: left
 :alt: Surface-tension driven self-folding of micro-cubes.
 ```
-
+```{div} full-width
 Anum Azam, Timothy G. Leong, Aasiyeh M. Zarafshar, and David H. Gracias. Compactness Determines the Success of Cube and Octahedron Self-Assembly. PLOS ONE, 4(2):e4451, February 2009. doi:10.1371/journal.pone.0004451.
-
+```
 <!-- #endregion -->
