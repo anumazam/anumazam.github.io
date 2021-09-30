@@ -15,6 +15,8 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 +++
 +++
 +++
+<br/>
+<br/>
 
 ```{image} ref_figures/ace2.jpg
 :height: 300px
@@ -22,13 +24,14 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 :align: rightt
 :alt: Engineering SARS-CoV-2 neutralizing receptor traps.
 ```
-</br>
+
 Anum Glasgow\*, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Zhang, Matthew A. Nix, Nicholas J. Rettko, Shoshana Zha, Rachel Yamin, Kevin Kao, Oren S. Rosenberg, Jeffrey V. Ravetch, Arun P. Wiita, Kevin K. Leung, Shion A. Lim, Xin X. Zhou, Tom C. Hobman, Tanja Kortemme, and James A. Wells. Engineered ACE2 receptor traps potently neutralize SARS-CoV-2. *Proceedings of the National Academy of Sciences*, 117(45):28046–28055, November 2020. doi:10.1073/pnas.2016093117.
-</br>
 
 +++
 +++
 +++
+<br/>
+<br/>
 
 ```{image} ref_figures/biosensor.png
 :height: 110px
@@ -42,12 +45,16 @@ Anum A. Glasgow\*, Yao-Ming Huang\*, Daniel J. Mandell\*, Michael Thompson, Ryan
 +++
 +++
 +++
+<br/>
+<br/>
 
 Anum Azam Glasgow and Danielle Tullman-Ercek. Type III Secretion Filaments as Templates for Metallic Nanostructure Synthesis. *Methods in Molecular Biology*, 1798:155–171, 2018. doi:10.1007/978-1-4939-7893-9_12.
 
 +++
 +++
 +++
+<br/>
+<br/>
 
 ```{image} ref_figures/sipD.jpg
 :height: 100px
@@ -61,6 +68,8 @@ Anum Azam Glasgow, Han Teng Wong, and Danielle Tullman-Ercek. A Secretion-Amplif
 +++
 +++
 +++
+<br/>
+<br/>
 
 ```{image} ref_figures/nanowires_2.png
 :height: 150px
@@ -69,25 +78,29 @@ Anum Azam Glasgow, Han Teng Wong, and Danielle Tullman-Ercek. A Secretion-Amplif
 :alt: Filament-templated metal rods on cells.
 ```
 
-</br>
 Anum Azam and Danielle Tullman-Ercek. Type-III secretion filaments as scaffolds for inorganic nanostructures. *Journal of the Royal Society Interface*, 13(114):20150938, January 2016. doi:10.1098/rsif.2015.0938.
-</br>
 
 +++
 +++
 +++
+<br/>
+<br/>
 
 Anum Azam, Cheng Li, Kevin J. Metcalf, and Danielle Tullman-Ercek. Type III secretion as a generalizable strategy for the production of full-length biopolymer-forming proteins. *Biotechnology and Bioengineering*, 113(11):2313–2320, November 2016. doi:10.1002/bit.25656.
 
 +++
 +++
 +++
+<br/>
+<br/>
 
 Kevin J. Metcalf, Casey Finnerty, Anum Azam, Elias Valdivia, and Danielle Tullman-Ercek. Using Transcriptional Control To Increase Titers of Secreted Heterologous Proteins by the Type III Secretion System. *Applied and Environmental Microbiology*, 80(19):5927–5934, October 2014. doi:10.1128/AEM.01330-14.
 
 +++
 +++
 +++
+<br/>
+<br/>
 
 ```{image} ref_figures/polymerbox.jpg
 :height: 100px
@@ -100,13 +113,16 @@ Anum Azam, Kate E. Laflin, Mustapha Jamal, Rohan Fernandes, and David H. Gracias
 +++
 +++
 +++
+<br/>
+<br/>
 
-</br>
 Jeong-Hyun Cho, Anum Azam, and David H. Gracias. Three Dimensional Nanofabrication Using Surface Forces. *Langmuir*, 26(21):16534–16539, November 2010. doi:10.1021/la1013889.
 
 +++
 +++
 +++
+<br/>
+<br/>
 
 ```{image} ref_figures/dodecs.jpg
 :height: 200px
@@ -119,6 +135,8 @@ David J. Filipiak\*, Anum Azam\*, Timothy G. Leong, and David H. Gracias. Hierar
 +++
 +++
 +++
+<br/>
+<br/>
 
 Anum Azam, Timothy G. Leong, Aasiyeh M. Zarafshar, and David H. Gracias. Compactness Determines the Success of Cube and Octahedron Self-Assembly. *PLOS ONE*, 4(2):e4451, February 2009. doi:10.1371/journal.pone.0004451.
 
