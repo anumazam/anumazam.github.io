@@ -3,7 +3,7 @@
 `````{div} full-width
 
 We are recruiting!
-We welcome applicants from all fields of science and engineering, and all walks of life.`
+We welcome applicants from all fields of science and engineering, and all walks of life.
 
 ````{panels}
 :column: col-lg-12 p-2
