@@ -19,10 +19,12 @@ Susanna K. Elledge\*, Xin X. Zhou\*, James R. Byrnes, Alexander J. Martinko, Ire
 ```{image} ref_figures/ace2.jpg
 :height: 300px
 :class: bg-primary mb-1
-:align: left
+:align: rightt
 :alt: Engineering SARS-CoV-2 neutralizing receptor traps.
 ```
+</br>
 Anum Glasgow\*, Jeff Glasgow\*, Daniel Limonta, Paige Solomon, Irene Lui, Yang Zhang, Matthew A. Nix, Nicholas J. Rettko, Shoshana Zha, Rachel Yamin, Kevin Kao, Oren S. Rosenberg, Jeffrey V. Ravetch, Arun P. Wiita, Kevin K. Leung, Shion A. Lim, Xin X. Zhou, Tom C. Hobman, Tanja Kortemme, and James A. Wells. Engineered ACE2 receptor traps potently neutralize SARS-CoV-2. *Proceedings of the National Academy of Sciences*, 117(45):28046–28055, November 2020. doi:10.1073/pnas.2016093117.
+</br>
 
 +++
 +++
@@ -63,10 +65,13 @@ Anum Azam Glasgow, Han Teng Wong, and Danielle Tullman-Ercek. A Secretion-Amplif
 ```{image} ref_figures/nanowires_2.png
 :height: 150px
 :class: bg-primary mb-1
-:align: left
+:align: right
 :alt: Filament-templated metal rods on cells.
 ```
+
+</br>
 Anum Azam and Danielle Tullman-Ercek. Type-III secretion filaments as scaffolds for inorganic nanostructures. *Journal of the Royal Society Interface*, 13(114):20150938, January 2016. doi:10.1098/rsif.2015.0938.
+</br>
 
 +++
 +++
@@ -96,6 +101,7 @@ Anum Azam, Kate E. Laflin, Mustapha Jamal, Rohan Fernandes, and David H. Gracias
 +++
 +++
 
+</br>
 Jeong-Hyun Cho, Anum Azam, and David H. Gracias. Three Dimensional Nanofabrication Using Surface Forces. *Langmuir*, 26(21):16534–16539, November 2010. doi:10.1021/la1013889.
 
 +++
@@ -114,12 +120,6 @@ David J. Filipiak\*, Anum Azam\*, Timothy G. Leong, and David H. Gracias. Hierar
 +++
 +++
 
-```{image} ref_figures/cubes.png
-:height: 110px
-:class: bg-primary mb-1
-:align: left
-:alt: Surface-tension driven self-folding of micro-cubes.
-```
 Anum Azam, Timothy G. Leong, Aasiyeh M. Zarafshar, and David H. Gracias. Compactness Determines the Success of Cube and Octahedron Self-Assembly. *PLOS ONE*, 4(2):e4451, February 2009. doi:10.1371/journal.pone.0004451.
 
 ````
