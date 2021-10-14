@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Logic functions as approximations for the input function of a gene</title>
+    <title>Resources for CMBSGR6300</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -86,7 +86,7 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1 current">
   <a class="reference internal" href="#">
-   Logic functions as approximations for the input function of a gene
+   Resources for CMBSGR6300
   </a>
  </li>
 </ul>
@@ -184,6 +184,19 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#logic-functions-as-approximations-for-the-input-function-of-a-gene">
+   Logic functions as approximations for the input function of a gene
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -192,8 +205,10 @@
         
               <div>
                 
-  <div class="section" id="logic-functions-as-approximations-for-the-input-function-of-a-gene">
-<h1>Logic functions as approximations for the input function of a gene<a class="headerlink" href="#logic-functions-as-approximations-for-the-input-function-of-a-gene" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="resources-for-cmbsgr6300">
+<h1>Resources for CMBSGR6300<a class="headerlink" href="#resources-for-cmbsgr6300" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="logic-functions-as-approximations-for-the-input-function-of-a-gene">
+<h2>Logic functions as approximations for the input function of a gene<a class="headerlink" href="#logic-functions-as-approximations-for-the-input-function-of-a-gene" title="Permalink to this headline">¶</a></h2>
 <p><strong>How similar are the dynamics of the accumulation of protein Y in X -&gt; Y when we use:</strong></p>
 <ol class="simple">
 <li><p>f(X) = X/(K+X) (Michaelis-Menten)</p></li>
@@ -217,20 +232,6 @@
 <span class="n">a</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1"># removal rate</span>
 <span class="n">K</span> <span class="o">=</span> <span class="mf">0.33</span> <span class="c1"># dissociation constant</span>
 <span class="n">n</span> <span class="o">=</span> <span class="mi">2</span> <span class="c1"># hill coefficient</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1616</span><span class="o">/</span><span class="mf">889192089.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="ne">----&gt; </span><span class="mi">2</span> <span class="kn">from</span> <span class="nn">scipy.integrate</span> <span class="kn">import</span> <span class="n">odeint</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="kn">import</span> <span class="nn">matplotlib.patches</span> <span class="k">as</span> <span class="nn">mpatches</span>
-<span class="g g-Whitespace">      </span><span class="mi">5</span> 
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;scipy&#39;
 </pre></div>
 </div>
 </div>
@@ -266,20 +267,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1616</span><span class="o">/</span><span class="mf">3180085250.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="g g-Whitespace">     </span><span class="mi">22</span> 
-<span class="g g-Whitespace">     </span><span class="mi">23</span> <span class="c1"># define input function</span>
-<span class="ne">---&gt; </span><span class="mi">24</span> <span class="n">input1</span> <span class="o">=</span> <span class="n">MM_fxn</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">25</span> <span class="n">input2</span> <span class="o">=</span> <span class="n">hill_fxn</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">26</span> <span class="n">input3</span> <span class="o">=</span> <span class="n">logic_fxn</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
-
-<span class="ne">NameError</span>: name &#39;X&#39; is not defined
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -300,18 +287,10 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1616</span><span class="o">/</span><span class="mf">570031796.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># plot input fxns</span>
-<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s1">&#39;font.size&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">})</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> 
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">fig1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
-<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;input function&#39;</span><span class="p">)</span>
-
-<span class="ne">NameError</span>: name &#39;plt&#39; is not defined
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7f33aaa332b0&gt;
 </pre></div>
 </div>
+<img alt="_images/gene_input_fxns_3_1.png" src="_images/gene_input_fxns_3_1.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -375,17 +354,10 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1616</span><span class="o">/</span><span class="mf">2776770461.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="g g-Whitespace">      </span><span class="mi">6</span> 
-<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="c1"># solve ODE</span>
-<span class="ne">----&gt; </span><span class="mi">8</span> <span class="n">Y1</span> <span class="o">=</span> <span class="n">odeint</span><span class="p">(</span><span class="n">y_activation_1</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
-<span class="g g-Whitespace">      </span><span class="mi">9</span> <span class="n">Y2</span> <span class="o">=</span> <span class="n">odeint</span><span class="p">(</span><span class="n">y_activation_2</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">10</span> <span class="n">Y3</span> <span class="o">=</span> <span class="n">odeint</span><span class="p">(</span><span class="n">y_activation_3</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
-
-<span class="ne">NameError</span>: name &#39;odeint&#39; is not defined
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7f33aa78d040&gt;
 </pre></div>
+</div>
+<img alt="_images/gene_input_fxns_5_1.png" src="_images/gene_input_fxns_5_1.png" />
 </div>
 </div>
 </div>
