@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -33,17 +33,17 @@
     
   <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script >
+    <script>
         const thebe_selector = ".thebe,.cell"
         const thebe_selector_input = "pre,.cell_input div.highlight"
         const thebe_selector_output = ".output,.cell_output"
@@ -210,7 +210,7 @@
         
               <div>
                 
-  <div class="section" id="resources-for-cmbsgr6300">
+  <div class="tex2jax_ignore mathjax_ignore section" id="resources-for-cmbsgr6300">
 <h1>Resources for CMBSGR6300<a class="headerlink" href="#resources-for-cmbsgr6300" title="Permalink to this headline">¶</a></h1>
 <p><strong>Logic functions as approximations for the input function of a gene</strong></p>
 <p>How similar are the dynamics of the accumulation of protein Y in X -&gt; Y when we use:</p>
@@ -236,13 +236,8 @@
 <span class="n">a</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1"># removal rate</span>
 <span class="n">K</span> <span class="o">=</span> <span class="mf">0.33</span> <span class="c1"># dissociation constant</span>
 <span class="n">n</span> <span class="o">=</span> <span class="mi">2</span> <span class="c1"># hill coefficient</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># INPUT FUNCTION DEFINITIONS</span>
+
+<span class="c1"># INPUT FUNCTION DEFINITIONS</span>
 
 <span class="c1"># MM input function</span>
 <span class="k">def</span> <span class="nf">MM_fxn</span><span class="p">(</span><span class="n">X</span><span class="p">):</span>
@@ -254,7 +249,7 @@
     <span class="n">f_X</span> <span class="o">=</span> <span class="n">X</span><span class="o">**</span><span class="n">n</span> <span class="o">/</span> <span class="p">(</span><span class="n">K</span><span class="o">**</span><span class="n">n</span> <span class="o">+</span> <span class="n">X</span><span class="o">**</span><span class="n">n</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">f_X</span>
 
-<span class="c1"># logic input function</span>
+<span class="c1"># step input function</span>
 <span class="k">def</span> <span class="nf">logic_fxn</span><span class="p">(</span><span class="n">X</span><span class="p">):</span>
     <span class="n">f_X</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">X</span><span class="p">:</span>
@@ -268,13 +263,8 @@
 <span class="n">input1</span> <span class="o">=</span> <span class="n">MM_fxn</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
 <span class="n">input2</span> <span class="o">=</span> <span class="n">hill_fxn</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
 <span class="n">input3</span> <span class="o">=</span> <span class="n">logic_fxn</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># plot input fxns</span>
+
+<span class="c1"># plot input fxns</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s1">&#39;font.size&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">})</span>
 
 <span class="n">fig1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
@@ -286,15 +276,16 @@
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;f(X)&#39;</span><span class="p">)</span>
 
 <span class="c1"># legend</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;MM&#39;</span><span class="p">,</span> <span class="s1">&#39;Hill&#39;</span><span class="p">,</span> <span class="s1">&#39;logic&#39;</span><span class="p">],</span> <span class="n">loc</span> <span class="o">=</span> <span class="s1">&#39;lower right&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;MM&#39;</span><span class="p">,</span> <span class="s1">&#39;Hill&#39;</span><span class="p">,</span> <span class="s1">&#39;step&#39;</span><span class="p">],</span> <span class="n">loc</span> <span class="o">=</span> <span class="s1">&#39;lower right&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;This is what the different input functions f(X) look like.&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7ff6949f32b0&gt;
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>This is what the different input functions f(X) look like.
 </pre></div>
 </div>
-<img alt="_images/z_gene_input_fxns_3_1.png" src="_images/z_gene_input_fxns_3_1.png" />
+<img alt="_images/z_gene_input_fxns_1_1.png" src="_images/z_gene_input_fxns_1_1.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -319,13 +310,8 @@
         <span class="n">x_star</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="n">dy_dt_3</span> <span class="o">=</span> <span class="n">x_star</span> <span class="o">-</span> <span class="n">a</span><span class="o">*</span><span class="n">Y</span>
     <span class="k">return</span> <span class="n">dy_dt_3</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># initial condition</span>
+
+<span class="c1"># initial condition</span>
 <span class="n">y0</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
 
 <span class="c1"># time points</span>
@@ -342,7 +328,7 @@
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">t</span><span class="p">,</span> <span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">a</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">a</span><span class="o">*</span><span class="n">t</span><span class="p">)),</span> <span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">marker</span> <span class="o">=</span> <span class="s1">&#39;X&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;X*&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">t</span><span class="p">,</span> <span class="n">Y1</span> <span class="o">/</span> <span class="n">Y1</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="p">,</span> <span class="s1">&#39;r.&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;MM&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">t</span><span class="p">,</span> <span class="n">Y2</span> <span class="o">/</span> <span class="n">Y2</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="p">,</span> <span class="s1">&#39;g&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;Hill&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">t</span><span class="p">,</span> <span class="n">Y3</span> <span class="o">/</span> <span class="n">Y3</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="p">,</span> <span class="s1">&#39;b--&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;logic&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">t</span><span class="p">,</span> <span class="n">Y3</span> <span class="o">/</span> <span class="n">Y3</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="p">,</span> <span class="s1">&#39;b--&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;step&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;a*t&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;fractional Y saturation&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="o">-</span><span class="mf">.05</span><span class="p">,</span> <span class="mf">1.05</span><span class="p">)</span>
@@ -351,17 +337,22 @@
 <span class="n">X</span> <span class="o">=</span> <span class="n">mpatches</span><span class="o">.</span><span class="n">Patch</span><span class="p">(</span><span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;X*&#39;</span><span class="p">)</span>
 <span class="n">MM</span> <span class="o">=</span> <span class="n">mpatches</span><span class="o">.</span><span class="n">Patch</span><span class="p">(</span><span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;MM&#39;</span><span class="p">)</span>
 <span class="n">Hill</span> <span class="o">=</span> <span class="n">mpatches</span><span class="o">.</span><span class="n">Patch</span><span class="p">(</span><span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;g&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;Hill&#39;</span><span class="p">)</span>
-<span class="n">logic</span> <span class="o">=</span> <span class="n">mpatches</span><span class="o">.</span><span class="n">Patch</span><span class="p">(</span><span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;logic&#39;</span><span class="p">)</span>
+<span class="n">logic</span> <span class="o">=</span> <span class="n">mpatches</span><span class="o">.</span><span class="n">Patch</span><span class="p">(</span><span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;step&#39;</span><span class="p">)</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">handles</span><span class="o">=</span><span class="p">[</span><span class="n">X</span><span class="p">,</span> <span class="n">MM</span><span class="p">,</span> <span class="n">Hill</span><span class="p">,</span> <span class="n">logic</span><span class="p">],</span> <span class="n">loc</span> <span class="o">=</span> <span class="s1">&#39;lower right&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;</span>
+<span class="s1">This graph reflects Y accumulation over time modeled with different gene input functions,</span>
+<span class="s1">after X* (black line) appears in the cell.</span>
+<span class="s1">&#39;&#39;&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7ff69474e040&gt;
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>This graph reflects Y accumulation over time modeled with different gene input functions,
+after X* (black line) appears in the cell.
 </pre></div>
 </div>
-<img alt="_images/z_gene_input_fxns_5_1.png" src="_images/z_gene_input_fxns_5_1.png" />
+<img alt="_images/z_gene_input_fxns_2_1.png" src="_images/z_gene_input_fxns_2_1.png" />
 </div>
 </div>
 </div>
