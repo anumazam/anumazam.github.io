@@ -11,6 +11,6 @@
 # Resources for CMBSGR6300
 
 ```{div} full-width
-**Input function for a gene.** How does approximating the rate of production of a protein as a Hill function vs. a step function impact the accumulation of the protein in the cell over time? [Try it out.](z_gene_input_fxns.ipynb)
+**Input function for a gene.** How does approximating the rate of production of a protein as a Hill function vs. a step function impact the accumulation of the protein in the cell over time? [Try it out.](class_files/z_gene_input_fxns.ipynb)
 
 ``` 
