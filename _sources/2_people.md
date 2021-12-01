@@ -32,7 +32,7 @@ email: ag4522 [at] cumc [dot] columbia [dot] edu
 
 ````{panels}
 :column: col-lg-12 p-2
-Daniel Camino Pineda (he/they) | *Undergraduate researcher*
+Daniel Camilo Pineda (he/they) | *Undergraduate researcher*
 ^^^
 ```{image} people/daniel.jpg
 :alt: daniel-is-cool
