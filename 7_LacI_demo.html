@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Explore HDX/MS data for LacI peptides in one or more functional states.</title>
+    <title>Explore HDX/MS data for LacI peptides.</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,6 +51,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Making a Release" href="pytraj/DEVELOPMENT.html" />
     <link rel="prev" title="Resources for CMBSGR6300" href="6_advbiochem.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -121,7 +122,12 @@
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Explore HDX/MS data for LacI peptides in one or more functional states.
+   Explore HDX/MS data for LacI peptides.
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="pytraj/DEVELOPMENT.html">
+   Making a Release
   </a>
  </li>
 </ul>
@@ -190,7 +196,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/anumazam/anumazam.github.io/main//v2/gh/anumazam/anumazam.github.io/main?urlpath=lab/tree/7_LacI_demo.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org//v2/gh/anumazam/anumazam.github.io/main?urlpath=lab/tree/7_LacI_demo.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="_static/images/logo_binder.svg"
@@ -266,8 +272,8 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="explore-hdx-ms-data-for-laci-peptides-in-one-or-more-functional-states">
-<h1>Explore HDX/MS data for LacI peptides in one or more functional states.<a class="headerlink" href="#explore-hdx-ms-data-for-laci-peptides-in-one-or-more-functional-states" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="explore-hdx-ms-data-for-laci-peptides">
+<h1>Explore HDX/MS data for LacI peptides.<a class="headerlink" href="#explore-hdx-ms-data-for-laci-peptides" title="Permalink to this headline">¶</a></h1>
 <p><img alt="LacI peptides and structure." src="_images/lacI_diagram_table.png" /></p>
 <div class="section" id="first-choose-the-state-s">
 <h2>First choose the state(s).<a class="headerlink" href="#first-choose-the-state-s" title="Permalink to this headline">¶</a></h2>
@@ -299,22 +305,22 @@
 </div>
 <div class="cell_output docutils container">
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "feaa19b5ea0b4c898688f9247495b8ea", "version_major": 2, "version_minor": 0}
+{"model_id": "16d43768df124fdab7386019ef6a07f6", "version_major": 2, "version_minor": 0}
 </script><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Choose from the following functional states: 
 </pre></div>
 </div>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "4c34146fe2f04df1a66ec8a3d4e41196", "version_major": 2, "version_minor": 0}
+{"model_id": "041d44bf9f9a4c1895a42ea17c2e3cb6", "version_major": 2, "version_minor": 0}
 </script><script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "b591625881db4e68b759f25e8597a3d1", "version_major": 2, "version_minor": 0}
+{"model_id": "ebba0d1418634118834bb818aeaf2791", "version_major": 2, "version_minor": 0}
 </script><script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "4323852ee919477aadc93ee20b858234", "version_major": 2, "version_minor": 0}
+{"model_id": "659159f749344945b85c935f333700e2", "version_major": 2, "version_minor": 0}
 </script><script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "5aa38fbbeeaf44a59108dc393ec6f273", "version_major": 2, "version_minor": 0}
+{"model_id": "0a4139034aea490c9c4c26db3df6ebde", "version_major": 2, "version_minor": 0}
 </script><script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "1ccd2e2a44344cbc92d5ba719a594fe6", "version_major": 2, "version_minor": 0}
+{"model_id": "dd9d81da81524aff8c9eb3bf97df52c9", "version_major": 2, "version_minor": 0}
 </script><script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "fb91dce26f1d4809b1236dc13a86ce2f", "version_major": 2, "version_minor": 0}
+{"model_id": "b041864fa753491b82f77ded75b71fa3", "version_major": 2, "version_minor": 0}
 </script></div>
 </div>
 </div>
@@ -357,6 +363,12 @@
     <span class="n">current_first_res</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">first_res</span><span class="p">[</span><span class="n">index</span><span class="p">][</span><span class="mi">0</span><span class="p">]))</span>
     <span class="n">all_peptides_2</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">current_first_res</span> <span class="o">+</span> <span class="s1">&#39; - &#39;</span> <span class="o">+</span> <span class="n">all_peptides</span><span class="p">[</span><span class="n">index</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
     <span class="n">index</span> <span class="o">=</span> <span class="n">index</span> <span class="o">+</span> <span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Chosen states:
+IPTG ONPF DNA
 </pre></div>
 </div>
 </div>
@@ -444,6 +456,11 @@
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>done!
+</pre></div>
+</div>
+</div>
 </div>
 </div>
 <div class="section" id="choose-two-peptides-to-visualize">
@@ -480,6 +497,12 @@
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "b74cd9650eba4cb696cd2d97a2a47654", "version_major": 2, "version_minor": 0}
+</script><script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "ff80cad4568444d28871b1d03cb6b081", "version_major": 2, "version_minor": 0}
+</script></div>
 </div>
 </div>
 <div class="section" id="run-the-next-block-to-confirm-your-choices-and-fit-regression-functions-to-the-raw-data">
@@ -589,6 +612,12 @@
             <span class="n">exchange_peptide2</span> <span class="o">=</span> <span class="n">exchange_fit_low</span><span class="p">(</span><span class="n">trialT</span><span class="p">,</span> <span class="o">*</span><span class="n">popt</span><span class="p">)</span>
 
         <span class="n">peptide2_fit_dict</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">exchange_peptide2</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Peptide 1: ALHAPSQIVAA
+Peptide 2: AAVHNL
 </pre></div>
 </div>
 </div>
@@ -707,6 +736,22 @@
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>PDB ID: 2P9H (wild-type LacI core domain + IPTG). 
+Oriented with the C-terminal subdomain at the top.
+
+Use the mouse to move the structure. 
+Double-click for full-screen. Type &quot;R&quot; to zoom out, &quot;I&quot; to rotate, and &quot;K&quot; to rock.
+NGLViewer, an amazing tool: H Nguyen, DA Case and AS Rose, Bioinformatics, 2017. doi:10.1093/bioinformatics/btx789
+
+Peptide ALHAPSQIVAA, residues 74-82, shown as orange surface and sticks.
+Peptide AAVHNL, residues 111-114, shown as blue surface and sticks.
+</pre></div>
+</div>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "baecb9e2b1914043b33379ad3725f7fa", "version_major": 2, "version_minor": 0}
+</script><img alt="_images/7_LacI_demo_12_2.png" src="_images/7_LacI_demo_12_2.png" />
+</div>
 </div>
 </div>
 <div class="section" id="compile-mutational-phenotype-information-for-peptide-1">
@@ -809,6 +854,95 @@
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>-------- Mutational phenotype data from Markiewicz et al., J. Mol Biol., 1994 --------
+
+Peptide 1: ALHAPSQIVAA
+
+A72: group 12
+N-terminal part of the dimerization interface - substitutions result in Is phenotype
+
+Mutations that do not affect the phenotype: H C E G K Q R S
+Mutations causing small effects on phenotype: Y L P
+Mutations causing dramatic effects on phenotype: F
+
+L73: group 11
+IPTG contacts, substitutions result in Is phenotype
+
+Mutations that do not affect the phenotype: Y H C F
+Mutations causing small effects on phenotype: P
+Mutations causing dramatic effects on phenotype: A E G K Q R S
+
+H74: group 12
+N-terminal part of the dimerization interface - substitutions result in Is phenotype
+
+Mutations that do not affect the phenotype: L A C E G K Q S
+Mutations causing small effects on phenotype: R
+Mutations causing dramatic effects on phenotype: Y F P
+
+A75: group 11
+IPTG contacts, substitutions result in Is phenotype
+
+Mutations that do not affect the phenotype: 
+Mutations causing small effects on phenotype: 
+Mutations causing dramatic effects on phenotype: Y L H C E F G K P Q R S
+
+P76: group 11
+IPTG contacts, substitutions result in Is phenotype
+
+Mutations that do not affect the phenotype: A C
+Mutations causing small effects on phenotype: L H E F G Q R S
+Mutations causing dramatic effects on phenotype: Y K
+
+S77: group 14
+N-terminal domain of the core, near the center of the domain (weak Is)
+
+Mutations that do not affect the phenotype: A G
+Mutations causing small effects on phenotype: L H C E F P Q R
+Mutations causing dramatic effects on phenotype: Y K
+
+Q78: group 12
+N-terminal part of the dimerization interface - substitutions result in Is phenotype
+
+Mutations that do not affect the phenotype: F S
+Mutations causing small effects on phenotype: Y L H A E G
+Mutations causing dramatic effects on phenotype: C K P R
+
+I79: group 11
+IPTG contacts, substitutions result in Is phenotype
+
+Mutations that do not affect the phenotype: A C S
+Mutations causing small effects on phenotype: Y L E F G K P Q R
+Mutations causing dramatic effects on phenotype: H
+
+V80: group 12
+N-terminal part of the dimerization interface - substitutions result in Is phenotype
+
+Mutations that do not affect the phenotype: A C G Q S
+Mutations causing small effects on phenotype: L K P R
+Mutations causing dramatic effects on phenotype: Y H E F
+
+A81: group 12
+N-terminal part of the dimerization interface - substitutions result in Is phenotype
+
+Mutations that do not affect the phenotype: H F P S
+Mutations causing small effects on phenotype: Y L C G K Q R
+Mutations causing dramatic effects on phenotype: E
+
+A82: group 1
+Solvent exposed and mostly tolerant to substitutions
+
+Mutations that do not affect the phenotype: Y H F R
+Mutations causing small effects on phenotype: L C E G K P S
+Mutations causing dramatic effects on phenotype: Q
+
+Heatmap
+Darker colors indicate increased disruption to phenotype by mutation.
+White boxes - WT residue.
+</pre></div>
+</div>
+<img alt="_images/7_LacI_demo_14_1.png" src="_images/7_LacI_demo_14_1.png" />
+</div>
 </div>
 </div>
 <div class="section" id="compile-mutational-phenotype-information-for-peptide-2">
@@ -890,6 +1024,58 @@
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>-------- Mutational phenotype data from Markiewicz et al., J. Mol Biol., 1994 --------
+
+Peptide 2: AAVHNL
+
+A109: group 1
+Solvent exposed and mostly tolerant to substitutions
+
+Mutations that do not affect the phenotype: Y L H C E F G K P Q R S
+Mutations causing small effects on phenotype: 
+Mutations causing dramatic effects on phenotype: 
+
+A110: group 12
+N-terminal part of the dimerization interface - substitutions result in Is phenotype
+
+Mutations that do not affect the phenotype: L C F G Q S
+Mutations causing small effects on phenotype: H E P R
+Mutations causing dramatic effects on phenotype: Y K
+
+V111: group 3
+Buried, but tolerant to substitutions
+
+Mutations that do not affect the phenotype: Y L H A C E F G K P Q R S
+Mutations causing small effects on phenotype: 
+Mutations causing dramatic effects on phenotype: 
+
+H112: group 15
+Interface between headpiece of protomer A and core of protomer B, or interface between headpieces A and B - intolerant to substitutions
+Mutations that do not affect the phenotype: Y L A C E F G K P Q R S
+Mutations causing small effects on phenotype: 
+Mutations causing dramatic effects on phenotype: 
+
+N113: group 15
+Interface between headpiece of protomer A and core of protomer B, or interface between headpieces A and B - intolerant to substitutions
+Mutations that do not affect the phenotype: H A C E F G Q R S
+Mutations causing small effects on phenotype: 
+Mutations causing dramatic effects on phenotype: Y L K P
+
+L114: group 7
+Buried, intolerant to substitutions (I-)
+
+Mutations that do not affect the phenotype: H A C G Q S
+Mutations causing small effects on phenotype: Y F
+Mutations causing dramatic effects on phenotype: E K P R
+
+Heatmap
+Darker colors indicate increased disruption to phenotype by mutation.
+White boxes - WT residue.
+</pre></div>
+</div>
+<img alt="_images/7_LacI_demo_16_1.png" src="_images/7_LacI_demo_16_1.png" />
+</div>
 </div>
 </div>
 </div>
@@ -925,6 +1111,13 @@
             <p class="prev-next-subtitle">previous</p>
             <p class="prev-next-title">Resources for CMBSGR6300</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="pytraj/DEVELOPMENT.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Making a Release</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
     </a>
 </div>
         

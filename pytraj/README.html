@@ -1,0 +1,435 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PYTRAJ</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="contributors/cpptraj.html" />
+    <link rel="prev" title="Making a Release" href="DEVELOPMENT.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../1_intro.html">
+   Welcome!
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2_people.html">
+   Team
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../3_projects.html">
+   Research
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../4_publications.html">
+   Publications
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../5_recruit.html">
+   Positions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../6_advbiochem.html">
+   Resources for CMBSGR6300
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../7_LacI_demo.html">
+   Explore HDX/MS data for LacI peptides.
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DEVELOPMENT.html">
+   Making a Release
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/pytraj/README.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   PYTRAJ
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#features">
+   Features
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#install">
+   Install
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-to-get-started">
+   How to get started?
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contributors-and-acknowledgement">
+   Contributors and Acknowledgement
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#citation">
+   Citation
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#question-suggestion">
+   Question/Suggestion?
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#nglview-with-pytraj-in-jupyter-notebook">
+   nglview with pytraj in Jupyter notebook
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#demo-interactive-data-exploration-with-jupyter-notebook-http-jupyter-org">
+   Demo: Interactive data exploration with [Jupyter notebook] (http://jupyter.org/)
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#license">
+   License
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <p><a class="reference external" href="#install">Install</a> | <a class="reference external" href="#features">Features</a> | <a class="reference external" href="#how-to-get-started">How to get started?</a> | <a class="reference external" href="#nglview-with-pytraj-in-jupyter-notebook">Visualization</a></p>
+<p><a class="reference external" href="https://travis-ci.org/Amber-MD/pytraj"><img alt="Build Status" src="https://travis-ci.org/Amber-MD/pytraj.svg?branch=master" /></a>
+<a class="reference external" href="https://anaconda.org/ambermd/pytraj/"><img alt="Binstar Badge" src="https://anaconda.org/ambermd/pytraj/badges/version.svg" /></a>
+<a class="reference external" href="https://badge.fury.io/py/pytraj"><img alt="PyPI version" src="https://badge.fury.io/py/pytraj.svg" /></a>
+<a class="reference external" href="https://coveralls.io/github/Amber-MD/pytraj?branch=master"><img alt="Coverage Status" src="https://coveralls.io/repos/Amber-MD/pytraj/badge.svg?branch=master&amp;service=github" /></a></p>
+<p><a class="reference external" href="http://amber-md.github.io/pytraj/latest/index.html"><img alt="pytraj website" src="../_images/pytraj.gif" /></a></p>
+<div class="section" id="pytraj">
+<h1>PYTRAJ<a class="headerlink" href="#pytraj" title="Permalink to this headline">¶</a></h1>
+<p>A Python front-end of [cpptraj program] (https://github.com/Amber-MD/cpptraj) (a data analysis package for biomolecular simulation).</p>
+<p>Website: http://amber-md.github.io/pytraj</p>
+<ul class="simple">
+<li><p><a class="reference external" href="#features">Features</a></p></li>
+<li><p><a class="reference external" href="#install">Install</a></p></li>
+<li><p><a class="reference external" href="#how-to-get-started">How to get started?</a></p></li>
+<li><p><a class="reference external" href="#contributors-and-acknowledgement">Contributors and Acknowledgement</a></p></li>
+<li><p><a class="reference external" href="#citation">Citation</a></p></li>
+<li><p><a class="reference external" href="#questionsuggestion">Question/Suggestion?</a></p></li>
+<li><p><a class="reference external" href="#nglview-with-pytraj-in-jupyter-notebook">nglview with pytraj in Jupyter notebook</a></p></li>
+<li><p><a class="reference external" href="#demo-interactive-data-exploration-with-jupyter-notebook">Demo: Interactive data exploration with Jupyter notebook</a></p></li>
+<li><p><a class="reference external" href="#license">License</a></p></li>
+</ul>
+</div>
+<div class="section" id="features">
+<h1>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>support more than 80 types of data analyses (rmsd, radgyr, autoimage, pca, clustering,…)</p></li>
+<li><p>read/write various file formats (.nc, .mdcrd, .dcd, .trr, .xtc, .pdb, .mol2, …)</p></li>
+<li><p>fast (core codes were written in C++ and Cython)</p></li>
+<li><p>support parallel calculation with trivial installation (openmp, multiprocessing, mpi, …)</p></li>
+<li><p>interactive analysis with large trajectory data that does not fit to memory</p></li>
+<li><p>[&gt;&gt; many more with comprehensive tutorials] (http://amber-md.github.io/pytraj)</p></li>
+</ul>
+</div>
+<div class="section" id="install">
+<h1>Install<a class="headerlink" href="#install" title="Permalink to this headline">¶</a></h1>
+<p>Supported platforms: Linux, OSX</p>
+<ul>
+<li><p>from AMBER suite distribution <a class="reference external" href="http://ambermd.org/#AmberTools">http://ambermd.org/</a>.</p></li>
+<li><p>from conda: <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">-c</span> <span class="pre">ambermd</span> <span class="pre">pytraj</span></code></p></li>
+<li><p>from pip: <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">pytraj</span></code></p></li>
+<li><p>from source code:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/amber-md/pytraj
+<span class="nb">cd</span> pytraj
+
+python setup.py install
+
+<span class="c1"># Note: openmp will be turned off in OSX.</span>
+
+<span class="c1"># AMBER user: overwrite pytraj in $AMBERHOME</span>
+python setup.py install --prefix<span class="o">=</span><span class="nv">$AMBERHOME</span>
+</pre></div>
+</div>
+</li>
+<li><p>getting trouble? : <a class="reference external" href="http://amber-md.github.io/pytraj/latest/installation.html">check our webpage</a></p></li>
+</ul>
+</div>
+<div class="section" id="how-to-get-started">
+<h1>How to get started?<a class="headerlink" href="#how-to-get-started" title="Permalink to this headline">¶</a></h1>
+<ul>
+<li><p>examples:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pytraj</span> <span class="k">as</span> <span class="nn">pt</span>
+<span class="n">traj</span> <span class="o">=</span> <span class="n">pt</span><span class="o">.</span><span class="n">iterload</span><span class="p">(</span><span class="s2">&quot;data.nc&quot;</span><span class="p">,</span> <span class="s2">&quot;top.parm7&quot;</span><span class="p">)</span>
+<span class="n">pt</span><span class="o">.</span><span class="n">rmsd</span><span class="p">(</span><span class="n">traj</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="s1">&#39;@CA&#39;</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">pt</span><span class="o">.</span><span class="n">dssp</span><span class="p">(</span><span class="n">traj</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="s1">&#39;:2-16&#39;</span><span class="p">)</span>
+<span class="n">pt</span><span class="o">.</span><span class="n">pca</span><span class="p">(</span><span class="n">traj</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="s1">&#39;!@H=&#39;</span><span class="p">,</span> <span class="n">n_vecs</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>check our website: [http://amber-md.github.io/pytraj] (http://amber-md.github.io/pytraj)</p></li>
+</ul>
+</div>
+<div class="section" id="contributors-and-acknowledgement">
+<h1>Contributors and Acknowledgement<a class="headerlink" href="#contributors-and-acknowledgement" title="Permalink to this headline">¶</a></h1>
+<p><span class="xref myst">Please check here</span></p>
+</div>
+<div class="section" id="citation">
+<h1>Citation<a class="headerlink" href="#citation" title="Permalink to this headline">¶</a></h1>
+<p>If you would like to acknowledge our work, please cite both <code class="docutils literal notranslate"><span class="pre">cpptraj</span></code> and <code class="docutils literal notranslate"><span class="pre">pytraj</span></code> papers.</p>
+<p>something like:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&quot;...used pytraj [1], a Python package binding to cpptraj program [2]&quot;
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>[1] PYTRAJ: Interactive data analysis for molecular dynamics simulations. Hai Nguyen, Daniel R. Roe, Jason Swails, David A. Case. (2016)</p></li>
+<li><p>[2] [PTRAJ and CPPTRAJ] (http://pubs.acs.org/doi/abs/10.1021/ct400341p): Software for Processing and Analysis of Molecular Dynamics Trajectory Data.
+Daniel R. Roe and Thomas E. Cheatham, III
+Journal of Chemical Theory and Computation 2013 9 (7), 3084-3095</p></li>
+</ul>
+</div>
+<div class="section" id="question-suggestion">
+<h1>Question/Suggestion?<a class="headerlink" href="#question-suggestion" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>code issue and stuff relating directly to <code class="docutils literal notranslate"><span class="pre">pytraj</span></code>, create <a class="reference external" href="https://github.com/pytraj/pytraj/issues">Issue</a></p></li>
+<li><p>ask question about data analysis in general, send email to [AMBER Mailing List] (http://lists.ambermd.org/mailman/listinfo/amber)</p></li>
+</ul>
+</div>
+<div class="section" id="nglview-with-pytraj-in-jupyter-notebook">
+<h1><a class="reference external" href="https://github.com/arose/nglview">nglview</a> with pytraj in Jupyter notebook<a class="headerlink" href="#nglview-with-pytraj-in-jupyter-notebook" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="demo-interactive-data-exploration-with-jupyter-notebook-http-jupyter-org">
+<h1>Demo: Interactive data exploration with [Jupyter notebook] (http://jupyter.org/)<a class="headerlink" href="#demo-interactive-data-exploration-with-jupyter-notebook-http-jupyter-org" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="http://amber-md.github.io/pytraj/latest/index.html"><img alt="pytraj website" src="../_images/progress_bar.gif" /></a></p>
+</div>
+<div class="section" id="license">
+<h1>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h1>
+<p>GPL v3 (since pytraj is derived work of <a class="reference external" href="https://github.com/Amber-MD/cpptraj/blob/master/LICENSE">cpptraj</a>)</p>
+<p>But if you would like to reuse code snippets and pieces independent of cpptraj, I am (Hai) happy to license them (pieces of codes) under
+BSD-2 Clause or whatever you like. Just buzz us.</p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "anumazam/anumazam.github.io",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./pytraj"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="DEVELOPMENT.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Making a Release</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="contributors/cpptraj.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">&lt;no title&gt;</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
