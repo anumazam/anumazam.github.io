@@ -41,9 +41,7 @@
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe,.cell"
@@ -127,6 +125,11 @@
    Explore HDX/MS data for LacI
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="pytraj/README.html">
+   PYTRAJ
+  </a>
+ </li>
 </ul>
 
     </div>
@@ -173,7 +176,7 @@
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
@@ -191,14 +194,24 @@
         </div>
 
         <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
         </div>
     </div>
 </div>
     <div id="main-content" class="row">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Team</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            
               <div>
                 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -224,10 +237,28 @@ We welcome applicants from all fields of science and engineering, and all walks 
 </div>
 <div class="card-body docutils">
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/anum.jpg"><img alt="anum-roadtripping" class="bg-primary mb-1 align-left" src="_images/anum.jpg" style="width: 250px;" /></a>
-<p class="card-text">I am an incoming assistant professor at Columbia University Medical Center in the <a class="reference external" href="https://www.biochem.cuimc.columbia.edu/">Department of Biochemistry and Molecular Biophysics</a>. I grew up on the Jersey Shore. As an undergraduate in the <a class="reference external" href="https://graciaslab.johnshopkins.edu/">Gracias Lab</a>, I built self-folding micro-structures. In graduate school, I studied nature’s most beautiful self-folding systems – proteins – in the <a class="reference external" href="https://dtelab.northwestern.edu/">DTE Lab</a> at UC Berkeley. For the last few years, I moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the <a class="reference external" href="http://kortemmelab.ucsf.edu/">Kortemme Lab</a> at UCSF. I am so pumped to do protein science in NYC!!</p>
+<p class="card-text">I am an assistant professor at Columbia University Medical Center in the <a class="reference external" href="https://www.biochem.cuimc.columbia.edu/">Department of Biochemistry and Molecular Biophysics</a>. I grew up on the Jersey Shore. As an undergraduate in the <a class="reference external" href="https://graciaslab.johnshopkins.edu/">Gracias Lab</a>, I built self-folding micro-structures. In graduate school, I studied nature’s most beautiful self-folding systems – proteins – in the <a class="reference external" href="https://dtelab.northwestern.edu/">DTE Lab</a> at UC Berkeley. For the last few years, I moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the <a class="reference external" href="http://kortemmelab.ucsf.edu/">Kortemme Lab</a> at UCSF. I am so pumped to do protein science in NYC!!</p>
 </div>
 <div class="card-footer docutils">
 <p class="card-text">email: ag4522 [at] cumc [dot] columbia [dot] edu</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sphinx-bs container pb-4 docutils">
+<div class="row docutils">
+<div class="d-flex col-lg-12 p-2 docutils">
+<div class="card w-100 shadow docutils">
+<div class="card-header docutils">
+<p class="card-text">Julia Urban (she/her) | <em>Graduate student rotating with us!</em></p>
+</div>
+<div class="card-body docutils">
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/julia.jpg"><img alt="julia" class="bg-primary mb-1 align-left" src="_images/julia.jpg" style="width: 250px;" /></a>
+<p class="card-text">I am a PhD student in the Integrated Program in Cellular, Molecular, and Biomedical Studies Program at Columbia. I received my B.S. in Computational &amp; Applied Mathematics &amp; Statistics at William &amp; Mary, where I competed in the iGEM synthetic biology competition. I am interested in synthetic biology and protein engineering.</p>
+</div>
+<div class="card-footer docutils">
+<p class="card-text">email: jau2112 [at] cumc [dot] columbia [dot] edu</p>
 </div>
 </div>
 </div>
@@ -277,7 +308,7 @@ We are excited to have you.
         requestKernel: true,
         binderOptions: {
             repo: "anumazam/anumazam.github.io",
-            ref: "master",
+            ref: "main",
         },
         codeMirrorConfig: {
             theme: "abcdef",
@@ -294,8 +325,8 @@ We are excited to have you.
 
               </div>
               
-        
-            <!-- Previous / next buttons -->
+            
+                <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
     <a class='left-prev' id="prev-link" href="1_intro.html" title="previous page">
         <i class="fas fa-angle-left"></i>
@@ -312,17 +343,15 @@ We are excited to have you.
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-        
+            
         </div>
     </div>
     <footer class="footer">
-    <div class="container">
-      <p>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
-    </div>
-  </footer>
+  <p>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
 </main>
 
 
